@@ -1,0 +1,3 @@
+/home/shello/Documents/aumentoPrecio/cmake-build-debug/CMakeFiles/aumentoPrecio.dir
+/home/shello/Documents/aumentoPrecio/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/shello/Documents/aumentoPrecio/cmake-build-debug/CMakeFiles/rebuild_cache.dir

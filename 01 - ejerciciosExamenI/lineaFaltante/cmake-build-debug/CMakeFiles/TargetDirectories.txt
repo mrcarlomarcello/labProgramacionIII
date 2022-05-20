@@ -1,0 +1,3 @@
+/home/shello/Documents/lineaFaltante/cmake-build-debug/CMakeFiles/lineaFaltante.dir
+/home/shello/Documents/lineaFaltante/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/shello/Documents/lineaFaltante/cmake-build-debug/CMakeFiles/rebuild_cache.dir
