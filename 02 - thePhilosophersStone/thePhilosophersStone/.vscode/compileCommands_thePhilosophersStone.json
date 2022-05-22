@@ -1,0 +1,37 @@
+[
+	{
+		"file": "/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Source/thePhilosophersStone/thePhilosophersStone.Build.cs",
+		"command": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @'/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/.vscode/compileCommands_thePhilosophersStone/thePhilosophersStone.201.rsp'",
+		"directory": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Source"
+	},
+	{
+		"file": "/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Source/thePhilosophersStone/thePhilosophersStone.cpp",
+		"command": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @'/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/.vscode/compileCommands_thePhilosophersStone/thePhilosophersStone.201.rsp'",
+		"directory": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Source"
+	},
+	{
+		"file": "/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Source/thePhilosophersStone/thePhilosophersStone.h",
+		"command": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @'/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/.vscode/compileCommands_thePhilosophersStone/thePhilosophersStone.201.rsp'",
+		"directory": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Source"
+	},
+	{
+		"file": "/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Source/thePhilosophersStone/thePhilosophersStoneCharacter.cpp",
+		"command": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @'/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/.vscode/compileCommands_thePhilosophersStone/thePhilosophersStone.201.rsp'",
+		"directory": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Source"
+	},
+	{
+		"file": "/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Source/thePhilosophersStone/thePhilosophersStoneCharacter.h",
+		"command": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @'/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/.vscode/compileCommands_thePhilosophersStone/thePhilosophersStone.201.rsp'",
+		"directory": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Source"
+	},
+	{
+		"file": "/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Source/thePhilosophersStone/thePhilosophersStoneGameMode.cpp",
+		"command": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @'/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/.vscode/compileCommands_thePhilosophersStone/thePhilosophersStone.201.rsp'",
+		"directory": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Source"
+	},
+	{
+		"file": "/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Source/thePhilosophersStone/thePhilosophersStoneGameMode.h",
+		"command": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @'/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/.vscode/compileCommands_thePhilosophersStone/thePhilosophersStone.201.rsp'",
+		"directory": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Source"
+	}
+]

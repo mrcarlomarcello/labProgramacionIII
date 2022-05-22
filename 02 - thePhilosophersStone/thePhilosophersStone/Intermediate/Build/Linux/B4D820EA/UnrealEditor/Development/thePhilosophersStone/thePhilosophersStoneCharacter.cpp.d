@@ -1717,9 +1717,6 @@
   ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/RootMotionSource.generated.h \
   ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/Character.generated.h \
   /home/shello/Documents/labProgramacionIII/02\ -\ thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/thePhilosophersStone/thePhilosophersStoneCharacter.generated.h \
-  /home/shello/Documents/labProgramacionIII/02\ -\ thePhilosophersStone/thePhilosophersStone/Source/thePhilosophersStone/thePhilosophersStoneProjectile.h \
-  /home/shello/Documents/labProgramacionIII/02\ -\ thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/thePhilosophersStone/thePhilosophersStoneProjectile.generated.h \
-  Runtime/Engine/Classes/Animation/AnimInstance.h \
   Runtime/Engine/Classes/Camera/CameraComponent.h \
   Runtime/CoreUObject/Public/UObject/ScriptInterface.h \
   Runtime/Engine/Classes/Components/SceneComponent.h \
@@ -1733,8 +1730,33 @@
   ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/ShapeComponent.generated.h \
   ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/CapsuleComponent.generated.h \
   Runtime/Engine/Classes/Components/InputComponent.h \
-  Runtime/Engine/Classes/GameFramework/InputSettings.h \
-  Runtime/InputCore/Classes/InputCoreTypes.h \
-  Runtime/CoreUObject/Public/UObject/SoftObjectPath.h \
-  Runtime/Engine/Classes/GameFramework/PlayerInput.h \
-  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/InputSettings.generated.h
+  Runtime/Engine/Classes/GameFramework/CharacterMovementComponent.h \
+  Runtime/Core/Public/Math/RandomStream.h \
+  Runtime/Engine/Classes/Engine/EngineBaseTypes.h \
+  Runtime/Engine/Public/WorldCollision.h \
+  Runtime/Engine/Classes/AI/Navigation/NavigationTypes.h \
+  Runtime/Engine/Classes/Animation/AnimMontage.h \
+  Runtime/Engine/Classes/AI/Navigation/NavigationAvoidanceTypes.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/NavigationAvoidanceTypes.generated.h \
+  Runtime/Engine/Public/AI/RVOAvoidanceInterface.h \
+  Runtime/CoreUObject/Public/UObject/Interface.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/RVOAvoidanceInterface.generated.h \
+  Runtime/Engine/Classes/GameFramework/PawnMovementComponent.h \
+  Runtime/Engine/Classes/GameFramework/NavMovementComponent.h \
+  Runtime/Engine/Classes/AI/Navigation/NavAgentInterface.h \
+  Runtime/Engine/Classes/AI/Navigation/PathFollowingAgentInterface.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/PathFollowingAgentInterface.generated.h \
+  Runtime/Engine/Classes/GameFramework/MovementComponent.h \
+  Runtime/PhysicsCore/Public/Chaos/ChaosEngineInterface.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/MovementComponent.generated.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/NavMovementComponent.generated.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/PawnMovementComponent.generated.h \
+  Runtime/Engine/Classes/Interfaces/NetworkPredictionInterface.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/NetworkPredictionInterface.generated.h \
+  Runtime/Engine/Public/CharacterMovementComponentAsync.h \
+  Runtime/Experimental/Chaos/Public/Chaos/SimCallbackObject.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/CharacterMovementComponentAsync.generated.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/CharacterMovementComponent.generated.h \
+  Runtime/Engine/Classes/GameFramework/Controller.h \
+  Runtime/Engine/Classes/GameFramework/SpringArmComponent.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/SpringArmComponent.generated.h
