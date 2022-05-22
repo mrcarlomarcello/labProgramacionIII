@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Source/thePhilosophersStone/thePhilosophersStone.Build.cs",
+		"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Source/thePhilosophersStone.Target.cs",
+		"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Source/thePhilosophersStoneEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.1"
+}

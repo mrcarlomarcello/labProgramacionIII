@@ -1,0 +1,17 @@
+"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/thePhilosophersStone/thePhilosophersStone.cpp.o"
+"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/thePhilosophersStone/thePhilosophersStoneCharacter.cpp.o"
+"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/thePhilosophersStone/thePhilosophersStoneGameMode.cpp.o"
+"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/thePhilosophersStone/thePhilosophersStoneProjectile.cpp.o"
+"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/thePhilosophersStone/TP_PickUpComponent.cpp.o"
+"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/thePhilosophersStone/TP_WeaponComponent.cpp.o"
+"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/thePhilosophersStone/thePhilosophersStoneGameMode.gen.cpp.o"
+"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/thePhilosophersStone/thePhilosophersStoneCharacter.gen.cpp.o"
+"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/thePhilosophersStone/thePhilosophersStoneProjectile.gen.cpp.o"
+"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/thePhilosophersStone/TP_PickUpComponent.gen.cpp.o"
+"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/thePhilosophersStone/TP_WeaponComponent.gen.cpp.o"
+"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/thePhilosophersStone/thePhilosophersStone.init.gen.cpp.o"
+ -soname="libUnrealEditor-thePhilosophersStone.so"
+ -rpath-link="/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Binaries/Linux"
+ -L"/home/shello/Programs/UnrealEngine5.0.1/Engine/Binaries/Linux"
+ --start-group
+ --end-group
