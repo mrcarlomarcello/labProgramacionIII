@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "thePhilosophersStone",
+			"Path": "/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Source/thePhilosophersStone.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "thePhilosophersStoneEditor",
+			"Path": "/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Source/thePhilosophersStoneEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,40 @@
+Generating report for minidump
+
+Application version 5.0.1.0
+ ... built from changelist 0
+
+OS version Linux 5.17.9-zen1-1-zen (network name: stealth)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000003"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-CoreUObject.so!StaticAllocateObject(UClass const*, UObject*, FName, EObjectFlags, EInternalObjectFlags, bool, bool*, UPackage*) [/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:2485]
+libUnrealEditor-thePhilosophersStone-6055.so!UObject* InternalVTableHelperCtorCaller<AMovingPlatform>(FVTableHelper&) [/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/CoreUObject/Public/UObject/Class.h:3494]
+libUnrealEditor-CoreUObject.so!UClass::HotReloadPrivateStaticClass(unsigned int, EClassFlags, EClassCastFlags, char16_t const*, void (*)(FObjectInitializer const&), UObject* (*)(FVTableHelper&), void (*)(UObject*, FReferenceCollector&), UClass*, UClass*) [/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:5371]
+libUnrealEditor-CoreUObject.so!GetPrivateStaticClassBody(char16_t const*, char16_t const*, UClass*&, void (*)(), unsigned int, unsigned int, EClassFlags, EClassCastFlags, char16_t const*, void (*)(FObjectInitializer const&), UObject* (*)(FVTableHelper&), void (*)(UObject*, FReferenceCollector&), UClass* (*)(), UClass* (*)()) [/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:5777]
+libUnrealEditor-thePhilosophersStone-6055.so!AMovingPlatform::StaticClass() [/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Source/thePhilosophersStone/MovingPlatform.h:12]
+libUnrealEditor-CoreUObject.so!UClassRegisterAllCompiledInClasses() [/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/UObjectBase.cpp:732]
+libUnrealEditor-CoreUObject.so!ProcessNewlyLoadedUObjects(FName, bool) [/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/UObjectBase.cpp:905]
+libUnrealEditor-CoreUObject.so!TBaseStaticDelegateInstance<void (FName, bool), FDefaultDelegateUserPolicy>::ExecuteIfSafe(FName, bool) const [/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:729]
+libUnrealEditor-Core.so!TMulticastDelegate<void (FName, bool), FDefaultDelegateUserPolicy>::Broadcast(FName, bool) const [/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:967]
+libUnrealEditor-Core.so!FModuleManager::LoadModuleWithFailureReason(FName, EModuleLoadResult&, ELoadModuleFlags) [/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/./Runtime/Core/Private/Modules/ModuleManager.cpp:555]
+libUnrealEditor-Core.so!FModuleManager::LoadModule(FName, ELoadModuleFlags) [/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/./Runtime/Core/Private/Modules/ModuleManager.cpp:376]
+libUnrealEditor-HotReload.so!FHotReloadModule::DoHotReloadInternal(TMap<FName, FString, FDefaultSetAllocator, TDefaultMapHashableKeyFuncs<FName, FString, false> > const&, TArray<UPackage*, TSizedDefaultAllocator<32> > const&, TArray<FName, TSizedDefaultAllocator<32> > const&, FOutputDevice&) [/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Developer/HotReload/Private/HotReload.cpp:808]
+libUnrealEditor-HotReload.so!FHotReloadModule::CheckForFinishedModuleDLLCompile(EHotReloadFlags, bool&, bool&, FOutputDevice&, bool) [/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Developer/HotReload/Private/HotReload.cpp:1672]
+libUnrealEditor-HotReload.so!FHotReloadModule::Tick(float) [/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Developer/HotReload/Private/HotReload.cpp:1223]
+libUnrealEditor-Core.so!FTSTicker::Tick(float) [/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/./Runtime/Core/Private/Containers/Ticker.cpp:110]
+UnrealEditor!FEngineLoop::Tick() [/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5438]
+UnrealEditor!GuardedMain(char16_t const*) [/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/./Runtime/Launch/Private/Launch.cpp:185]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:264]
+libc.so.6!UnknownFunction(0x2928f)
+libc.so.6!__libc_start_main(+0x89)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

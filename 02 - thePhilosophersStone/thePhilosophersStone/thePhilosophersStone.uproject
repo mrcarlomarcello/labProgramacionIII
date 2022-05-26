@@ -2,5 +2,15 @@
 	"FileVersion": 3,
 	"EngineAssociation": "{38D0B2DD-4736-4A20-88CA-32A5F387AA1D}",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "thePhilosophersStone",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
 }
