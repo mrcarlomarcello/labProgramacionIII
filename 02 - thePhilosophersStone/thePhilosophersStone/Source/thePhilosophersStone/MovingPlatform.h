@@ -22,13 +22,11 @@ protected:
 public:	
 			
 	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-	
+	virtual void Tick(float DeltaTime) override;	
 	//UPPROPERTY agrega la propiedad a UnrealEngine (ojo!)
-	UPROPERTY(EditAnywhere)
-	FVector MyVector = FVector(-2280.0,-1930.0,95);
 	
+	//UPROPERTY(EditAnywhere)	
+	//VectorInicial Para esta Plataforma (-2280.0,-1930.0,95)
+	FVector CurrentLocation = FVector(-2280.0,-1930.0,95);
 	
-	UPROPERTY(EditAnywhere)
-	float MyX = 0;
 };

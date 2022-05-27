@@ -19,18 +19,20 @@ void AMovingPlatform::BeginPlay()
 
 }
 
-// Called every frame
+// Esto Calcula cada Frame
 void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	FVector LocalVector = MyVector;
+	//Ahora vamos a mover la plataforma adelante
+	CurrentLocation = GetActorLocation();
+	CurrentLocation.Y = CurrentLocation.Y + 5;
+	CurrentLocation.Z = CurrentLocation.Z - 1;
+	SetActorLocation(CurrentLocation);
 
-	LocalVector.Z = LocalVector.Z+1;
+	
 
-	MyVector.Y = MyVector.Y + 5;
-
-	SetActorLocation(MyVector);
+	//Tenemos que resetear la Plataforma cuando se vaya muy lejos
 
 }
 
