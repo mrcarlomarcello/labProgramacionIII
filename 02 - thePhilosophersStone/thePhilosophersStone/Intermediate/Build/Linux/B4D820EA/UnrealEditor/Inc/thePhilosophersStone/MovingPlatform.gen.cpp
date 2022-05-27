@@ -13,6 +13,7 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatform() {}
 	THEPHILOSOPHERSSTONE_API UClass* Z_Construct_UClass_AMovingPlatform();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_thePhilosophersStone();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 // End Cross Module References
 	void AMovingPlatform::StaticRegisterNativesAMovingPlatform()
 	{
@@ -28,6 +29,23 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatform() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_CurrentLocation_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_CurrentLocation;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_PlatformSpeed_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_PlatformSpeed;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MoveDistance_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_MoveDistance;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_distanceTravelled_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_distanceTravelled;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -41,6 +59,44 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatform() {}
 		{ "ModuleRelativePath", "MovingPlatform.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlatform_Statics::NewProp_CurrentLocation_MetaData[] = {
+		{ "Category", "Moving Platform" },
+		{ "Comment", "//UPROPERTY(EditAnywhere)\x09\n//VectorInicial Para esta Plataforma (-2280.0,-1930.0,95)\n" },
+		{ "ModuleRelativePath", "MovingPlatform.h" },
+		{ "ToolTip", "UPROPERTY(EditAnywhere)\nVectorInicial Para esta Plataforma (-2280.0,-1930.0,95)" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMovingPlatform_Statics::NewProp_CurrentLocation = { "CurrentLocation", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlatform, CurrentLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AMovingPlatform_Statics::NewProp_CurrentLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlatform_Statics::NewProp_CurrentLocation_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlatform_Statics::NewProp_PlatformSpeed_MetaData[] = {
+		{ "Category", "Moving Platform" },
+		{ "Comment", "// = FVector(-2280.0,-1930.0,95);\n" },
+		{ "ModuleRelativePath", "MovingPlatform.h" },
+		{ "ToolTip", "= FVector(-2280.0,-1930.0,95);" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMovingPlatform_Statics::NewProp_PlatformSpeed = { "PlatformSpeed", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlatform, PlatformSpeed), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AMovingPlatform_Statics::NewProp_PlatformSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlatform_Statics::NewProp_PlatformSpeed_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlatform_Statics::NewProp_MoveDistance_MetaData[] = {
+		{ "Category", "Moving Platform" },
+		{ "ModuleRelativePath", "MovingPlatform.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMovingPlatform_Statics::NewProp_MoveDistance = { "MoveDistance", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlatform, MoveDistance), METADATA_PARAMS(Z_Construct_UClass_AMovingPlatform_Statics::NewProp_MoveDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlatform_Statics::NewProp_MoveDistance_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlatform_Statics::NewProp_distanceTravelled_MetaData[] = {
+		{ "Category", "MovingPlatform" },
+		{ "ModuleRelativePath", "MovingPlatform.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMovingPlatform_Statics::NewProp_distanceTravelled = { "distanceTravelled", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlatform, distanceTravelled), METADATA_PARAMS(Z_Construct_UClass_AMovingPlatform_Statics::NewProp_distanceTravelled_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlatform_Statics::NewProp_distanceTravelled_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMovingPlatform_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatform_Statics::NewProp_CurrentLocation,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatform_Statics::NewProp_PlatformSpeed,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatform_Statics::NewProp_MoveDistance,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatform_Statics::NewProp_distanceTravelled,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMovingPlatform_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMovingPlatform>::IsAbstract,
 	};
@@ -50,11 +106,11 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatform() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AMovingPlatform_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlatform_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AMovingPlatform_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlatform_Statics::Class_MetaDataParams))
@@ -77,9 +133,9 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatform() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_MovingPlatform_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AMovingPlatform, AMovingPlatform::StaticClass, TEXT("AMovingPlatform"), &Z_Registration_Info_UClass_AMovingPlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingPlatform), 261318448U) },
+		{ Z_Construct_UClass_AMovingPlatform, AMovingPlatform::StaticClass, TEXT("AMovingPlatform"), &Z_Registration_Info_UClass_AMovingPlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingPlatform), 115012821U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_MovingPlatform_h_2444574374(TEXT("/Script/thePhilosophersStone"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_MovingPlatform_h_1467059619(TEXT("/Script/thePhilosophersStone"),
 		Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_MovingPlatform_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_MovingPlatform_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
