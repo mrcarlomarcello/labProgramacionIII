@@ -608,10 +608,7 @@
 		},
 		{
 			"label": "thePhilosophersStoneEditor Linux DebugGame Build",
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			},
+			"group": "build",
 			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"thePhilosophersStoneEditor",

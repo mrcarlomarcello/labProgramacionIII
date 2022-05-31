@@ -4,6 +4,6 @@
 "/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/thePhilosophersStone/thePhilosophersStone.init.gen.cpp.o"
  -soname="libUnrealEditor-thePhilosophersStone.so"
  -rpath-link="/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Binaries/Linux"
- -L"/home/shello/Programs/UnrealEngine5.0.2/Engine/Binaries/Linux"
+ -L"/home/shello/Programs/UnrealEngine5.0.1/Engine/Binaries/Linux"
  --start-group
  --end-group
