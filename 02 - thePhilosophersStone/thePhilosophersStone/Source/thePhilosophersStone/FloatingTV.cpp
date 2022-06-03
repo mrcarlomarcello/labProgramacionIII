@@ -41,7 +41,7 @@ void AFloatingTV::Tick(float DeltaTime)
 	
 	//Tenemos que resetear la Plataforma cuando se vaya muy lejos:
 		
-		//Revisar cuánto hemos movido la plataforma		
+	//Revisar cuánto hemos movido la plataforma		
 	distanceTravelled = FVector::Dist(StartLocation, CurrentLocation);
 
 	if (distanceTravelled > MoveDistance){

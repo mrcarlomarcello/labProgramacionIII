@@ -8,9 +8,9 @@
 			"preLaunchTask": "thePhilosophersStone Linux Debug Build",
 			"args": [
 			],
-			"cwd": "/home/shello/Programs/UnrealEngine5.0.1",
+			"cwd": "/home/shello/Programs/UnrealEngine5.0.2",
 			"type": "cppdbg",
-			"visualizerFile": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"visualizerFile": "/home/shello/Programs/UnrealEngine5.0.2/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 			"showDisplayString": true
 		},
 		{
@@ -20,9 +20,9 @@
 			"preLaunchTask": "thePhilosophersStone Linux DebugGame Build",
 			"args": [
 			],
-			"cwd": "/home/shello/Programs/UnrealEngine5.0.1",
+			"cwd": "/home/shello/Programs/UnrealEngine5.0.2",
 			"type": "cppdbg",
-			"visualizerFile": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"visualizerFile": "/home/shello/Programs/UnrealEngine5.0.2/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 			"showDisplayString": true
 		},
 		{
@@ -32,9 +32,9 @@
 			"preLaunchTask": "thePhilosophersStone Linux Development Build",
 			"args": [
 			],
-			"cwd": "/home/shello/Programs/UnrealEngine5.0.1",
+			"cwd": "/home/shello/Programs/UnrealEngine5.0.2",
 			"type": "cppdbg",
-			"visualizerFile": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"visualizerFile": "/home/shello/Programs/UnrealEngine5.0.2/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 			"showDisplayString": true
 		},
 		{
@@ -44,9 +44,9 @@
 			"preLaunchTask": "thePhilosophersStone Linux Test Build",
 			"args": [
 			],
-			"cwd": "/home/shello/Programs/UnrealEngine5.0.1",
+			"cwd": "/home/shello/Programs/UnrealEngine5.0.2",
 			"type": "cppdbg",
-			"visualizerFile": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"visualizerFile": "/home/shello/Programs/UnrealEngine5.0.2/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 			"showDisplayString": true
 		},
 		{
@@ -56,55 +56,55 @@
 			"preLaunchTask": "thePhilosophersStone Linux Shipping Build",
 			"args": [
 			],
-			"cwd": "/home/shello/Programs/UnrealEngine5.0.1",
+			"cwd": "/home/shello/Programs/UnrealEngine5.0.2",
 			"type": "cppdbg",
-			"visualizerFile": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"visualizerFile": "/home/shello/Programs/UnrealEngine5.0.2/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 			"showDisplayString": true
 		},
 		{
 			"name": "Launch thePhilosophersStoneEditor (Debug)",
 			"request": "launch",
-			"program": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
+			"program": "/home/shello/Programs/UnrealEngine5.0.2/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
 			"preLaunchTask": "thePhilosophersStoneEditor Linux Debug Build",
 			"args": [
 				"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/thePhilosophersStone.uproject"
 			],
-			"cwd": "/home/shello/Programs/UnrealEngine5.0.1",
+			"cwd": "/home/shello/Programs/UnrealEngine5.0.2",
 			"type": "cppdbg",
-			"visualizerFile": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"visualizerFile": "/home/shello/Programs/UnrealEngine5.0.2/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 			"showDisplayString": true
 		},
 		{
 			"name": "Launch thePhilosophersStoneEditor (DebugGame)",
 			"request": "launch",
-			"program": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
+			"program": "/home/shello/Programs/UnrealEngine5.0.2/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
 			"preLaunchTask": "thePhilosophersStoneEditor Linux DebugGame Build",
 			"args": [
 				"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/thePhilosophersStone.uproject"
 			],
-			"cwd": "/home/shello/Programs/UnrealEngine5.0.1",
+			"cwd": "/home/shello/Programs/UnrealEngine5.0.2",
 			"type": "cppdbg",
-			"visualizerFile": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"visualizerFile": "/home/shello/Programs/UnrealEngine5.0.2/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 			"showDisplayString": true
 		},
 		{
 			"name": "Launch thePhilosophersStoneEditor (Development)",
 			"request": "launch",
-			"program": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Binaries/Linux/UnrealEditor",
+			"program": "/home/shello/Programs/UnrealEngine5.0.2/Engine/Binaries/Linux/UnrealEditor",
 			"preLaunchTask": "thePhilosophersStoneEditor Linux Development Build",
 			"args": [
 				"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/thePhilosophersStone.uproject"
 			],
-			"cwd": "/home/shello/Programs/UnrealEngine5.0.1",
+			"cwd": "/home/shello/Programs/UnrealEngine5.0.2",
 			"type": "cppdbg",
-			"visualizerFile": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"visualizerFile": "/home/shello/Programs/UnrealEngine5.0.2/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 			"showDisplayString": true
 		},
 		{
 			"name": "Generate Project Files",
 			"type": "coreclr",
 			"request": "launch",
-			"program": "/home/shello/Programs/UnrealEngine5.0.1/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool",
+			"program": "/home/shello/Programs/UnrealEngine5.0.2/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool",
 			"args": [
 				"-projectfiles",
 				"-vscode",
@@ -115,7 +115,7 @@
 			"console": "internalConsole",
 			"internalConsoleOptions": "openOnSessionStart",
 			"stopAtEntry": false,
-			"cwd": "/home/shello/Programs/UnrealEngine5.0.1"
+			"cwd": "/home/shello/Programs/UnrealEngine5.0.2"
 		}
 	]
 }
