@@ -1,0 +1,33 @@
+Generating report for minidump
+
+Application version 5.0.2.0
+ ... built from changelist 0
+
+OS version Linux 5.18.1-zen1-1-zen (network name: stealth)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x00000000000000a8"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-WebMMedia.so!mkvparser::Segment::GetFirst() const(+0x10)
+libUnrealEditor-WebMMedia.so!FWebMMediaPlayer::MkvSeekToNextValidBlock() [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./../Plugins/Media/WebMMedia/Source/WebMMedia/Private/Player/WebMMediaPlayer.cpp:695]
+libUnrealEditor-WebMMedia.so!FWebMMediaPlayer::TickFetch(FTimespan, FTimespan) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./../Plugins/Media/WebMMedia/Source/WebMMedia/Private/Player/WebMMediaPlayer.cpp:234]
+libUnrealEditor-MediaUtils.so!FMediaPlayerFacade::TickFetch(FTimespan, FTimespan) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/MediaUtils/Private/MediaPlayerFacade.cpp:2006]
+libUnrealEditor-Media.so!FMediaClock::TickFetch() [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/Media/Private/MediaClock.cpp:32]
+libUnrealEditor-Media.so!FMediaModule::TickPostEngine() [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/Media/Private/MediaModule.cpp:150]
+libUnrealEditor-UnrealEd.so!UEditorEngine::Tick(float, bool) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Editor/UnrealEd/Private/EditorEngine.cpp:1832]
+libUnrealEditor-UnrealEd.so!UUnrealEdEngine::Tick(float, bool) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Editor/UnrealEd/Private/UnrealEdEngine.cpp:471]
+UnrealEditor!FEngineLoop::Tick() [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5209]
+UnrealEditor!GuardedMain(char16_t const*) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/Launch/Private/Launch.cpp:185]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:264]
+libc.so.6!UnknownFunction(0x2928f)
+libc.so.6!__libc_start_main(+0x89)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

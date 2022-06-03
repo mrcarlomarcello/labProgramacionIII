@@ -1,0 +1,8 @@
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Cameras/GameplayCameras/Source/GameplayCameras/Public/CameraAnimationCameraModifier.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Cameras/GameplayCameras/Source/GameplayCameras/Public/CompositeCameraShakePattern.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Cameras/GameplayCameras/Source/GameplayCameras/Public/DefaultCameraShakeBase.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Cameras/GameplayCameras/Source/GameplayCameras/Public/MatineeCameraShake.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Cameras/GameplayCameras/Source/GameplayCameras/Public/PerlinNoiseCameraShakePattern.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Cameras/GameplayCameras/Source/GameplayCameras/Public/SimpleCameraShakePattern.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Cameras/GameplayCameras/Source/GameplayCameras/Public/WaveOscillatorCameraShakePattern.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Cameras/GameplayCameras/Source/GameplayCameras/Private/Tests/CameraShakeTestObjects.h

@@ -31,16 +31,17 @@ public:
 	FVector CurrentLocation; // = FVector(-2280.0,-1930.0,95);
 
 	UPROPERTY(EditAnywhere, Category = "Moving Platform");
-	FVector PlatformSpeed = FVector(0.0,3.0,-0.5);
+	FVector PlatformSpeed = FVector(0.0,3.0,-0.75);
 
 	UPROPERTY(EditAnywhere, Category = "Moving Platform");	
 	float MoveDistance = 5500;
-
 
 	UPROPERTY(VisibleAnywhere)
 	float distanceTravelled = -1;
 	
 	//No vamos a usar UPROPERTY(EditAnywhere) solo lo veremos en código
 	FVector StartLocation;
+
+	bool Active;
 	
 };

@@ -1,0 +1,154 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/GeneratedCppIncludes.h"
+#include "Engine/Classes/Matinee/InterpTrackInstVectorMaterialParam.h"
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+void EmptyLinkFunctionForGeneratedCodeInterpTrackInstVectorMaterialParam() {}
+// Cross Module References
+	ENGINE_API UClass* Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UInterpTrackInstVectorMaterialParam();
+	ENGINE_API UClass* Z_Construct_UClass_UInterpTrackInst();
+	UPackage* Z_Construct_UPackage__Script_Engine();
+	ENGINE_API UClass* Z_Construct_UClass_UMaterialInstanceDynamic_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FPrimitiveMaterialRef();
+	ENGINE_API UClass* Z_Construct_UClass_UInterpTrackVectorMaterialParam_NoRegister();
+// End Cross Module References
+	void UInterpTrackInstVectorMaterialParam::StaticRegisterNativesUInterpTrackInstVectorMaterialParam()
+	{
+	}
+	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UInterpTrackInstVectorMaterialParam);
+	UClass* Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_NoRegister()
+	{
+		return UInterpTrackInstVectorMaterialParam::StaticClass();
+	}
+	struct Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_MaterialInstances_Inner;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MaterialInstances_MetaData[];
+#endif
+		static const UECodeGen_Private::FArrayPropertyParams NewProp_MaterialInstances;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_ResetVectors_Inner;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_ResetVectors_MetaData[];
+#endif
+		static const UECodeGen_Private::FArrayPropertyParams NewProp_ResetVectors;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_PrimitiveMaterialRefs_Inner;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_PrimitiveMaterialRefs_MetaData[];
+#endif
+		static const UECodeGen_Private::FArrayPropertyParams NewProp_PrimitiveMaterialRefs;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_InstancedTrack_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_InstancedTrack;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UECodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_UInterpTrackInst,
+		(UObject* (*)())Z_Construct_UPackage__Script_Engine,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::Class_MetaDataParams[] = {
+		{ "IncludePath", "Matinee/InterpTrackInstVectorMaterialParam.h" },
+		{ "ModuleRelativePath", "Classes/Matinee/InterpTrackInstVectorMaterialParam.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_MaterialInstances_Inner = { "MaterialInstances", nullptr, (EPropertyFlags)0x0004000000000000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UMaterialInstanceDynamic_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_MaterialInstances_MetaData[] = {
+		{ "Comment", "/** MIDs we're using to set the desired parameter. */" },
+		{ "ModuleRelativePath", "Classes/Matinee/InterpTrackInstVectorMaterialParam.h" },
+		{ "ToolTip", "MIDs we're using to set the desired parameter." },
+	};
+#endif
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_MaterialInstances = { "MaterialInstances", nullptr, (EPropertyFlags)0x0014000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UInterpTrackInstVectorMaterialParam, MaterialInstances), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_MaterialInstances_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_MaterialInstances_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_ResetVectors_Inner = { "ResetVectors", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_ResetVectors_MetaData[] = {
+		{ "Comment", "/** Saved values for restoring state when exiting Matinee. */" },
+		{ "ModuleRelativePath", "Classes/Matinee/InterpTrackInstVectorMaterialParam.h" },
+		{ "ToolTip", "Saved values for restoring state when exiting Matinee." },
+	};
+#endif
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_ResetVectors = { "ResetVectors", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UInterpTrackInstVectorMaterialParam, ResetVectors), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_ResetVectors_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_ResetVectors_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_PrimitiveMaterialRefs_Inner = { "PrimitiveMaterialRefs", nullptr, (EPropertyFlags)0x0000008000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FPrimitiveMaterialRef, METADATA_PARAMS(nullptr, 0) }; // 3716005623
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_PrimitiveMaterialRefs_MetaData[] = {
+		{ "Comment", "/** Primitive components on which materials have been overridden. */" },
+		{ "ModuleRelativePath", "Classes/Matinee/InterpTrackInstVectorMaterialParam.h" },
+		{ "ToolTip", "Primitive components on which materials have been overridden." },
+	};
+#endif
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_PrimitiveMaterialRefs = { "PrimitiveMaterialRefs", nullptr, (EPropertyFlags)0x0010008000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UInterpTrackInstVectorMaterialParam, PrimitiveMaterialRefs), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_PrimitiveMaterialRefs_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_PrimitiveMaterialRefs_MetaData)) }; // 3716005623
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_InstancedTrack_MetaData[] = {
+		{ "Comment", "/** Track we are an instance of - used in the editor to propagate changes to the track's Materials array immediately. */" },
+		{ "ModuleRelativePath", "Classes/Matinee/InterpTrackInstVectorMaterialParam.h" },
+		{ "ToolTip", "Track we are an instance of - used in the editor to propagate changes to the track's Materials array immediately." },
+	};
+#endif
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_InstancedTrack = { "InstancedTrack", nullptr, (EPropertyFlags)0x0014000000000000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UInterpTrackInstVectorMaterialParam, InstancedTrack), Z_Construct_UClass_UInterpTrackVectorMaterialParam_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_InstancedTrack_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_InstancedTrack_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_MaterialInstances_Inner,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_MaterialInstances,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_ResetVectors_Inner,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_ResetVectors,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_PrimitiveMaterialRefs_Inner,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_PrimitiveMaterialRefs,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::NewProp_InstancedTrack,
+	};
+	const FCppClassTypeInfoStatic Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<UInterpTrackInstVectorMaterialParam>::IsAbstract,
+	};
+	const UECodeGen_Private::FClassParams Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::ClassParams = {
+		&UInterpTrackInstVectorMaterialParam::StaticClass,
+		nullptr,
+		&StaticCppClassTypeInfo,
+		DependentSingletons,
+		nullptr,
+		Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::PropPointers,
+		nullptr,
+		UE_ARRAY_COUNT(DependentSingletons),
+		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::PropPointers),
+		0,
+		0x008000A0u,
+		METADATA_PARAMS(Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::Class_MetaDataParams))
+	};
+	UClass* Z_Construct_UClass_UInterpTrackInstVectorMaterialParam()
+	{
+		if (!Z_Registration_Info_UClass_UInterpTrackInstVectorMaterialParam.OuterSingleton)
+		{
+			UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_UInterpTrackInstVectorMaterialParam.OuterSingleton, Z_Construct_UClass_UInterpTrackInstVectorMaterialParam_Statics::ClassParams);
+		}
+		return Z_Registration_Info_UClass_UInterpTrackInstVectorMaterialParam.OuterSingleton;
+	}
+	template<> ENGINE_API UClass* StaticClass<UInterpTrackInstVectorMaterialParam>()
+	{
+		return UInterpTrackInstVectorMaterialParam::StaticClass();
+	}
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UInterpTrackInstVectorMaterialParam);
+	struct Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Engine_Classes_Matinee_InterpTrackInstVectorMaterialParam_h_Statics
+	{
+		static const FClassRegisterCompiledInInfo ClassInfo[];
+	};
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Engine_Classes_Matinee_InterpTrackInstVectorMaterialParam_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UInterpTrackInstVectorMaterialParam, UInterpTrackInstVectorMaterialParam::StaticClass, TEXT("UInterpTrackInstVectorMaterialParam"), &Z_Registration_Info_UClass_UInterpTrackInstVectorMaterialParam, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInterpTrackInstVectorMaterialParam), 1051103736U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Engine_Classes_Matinee_InterpTrackInstVectorMaterialParam_h_487607769(TEXT("/Script/Engine"),
+		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Engine_Classes_Matinee_InterpTrackInstVectorMaterialParam_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Engine_Classes_Matinee_InterpTrackInstVectorMaterialParam_h_Statics::ClassInfo),
+		nullptr, 0,
+		nullptr, 0);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

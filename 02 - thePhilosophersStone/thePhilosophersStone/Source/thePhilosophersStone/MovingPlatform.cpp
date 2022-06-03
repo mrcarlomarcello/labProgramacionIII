@@ -19,6 +19,7 @@ void AMovingPlatform::BeginPlay()
 	
 	//Variable que dura toda la instancia de BeginPlay() usamos para hacer el return de la plataforma.
 	StartLocation = GetActorLocation();
+	Active = false;
 
 }
 
@@ -27,15 +28,16 @@ void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	
-	
+		
 	//Ahora vamos a mover la plataforma adelante
 	CurrentLocation = GetActorLocation();
 	
 	//CurrentLocation.Y = CurrentLocation.Y + 3;
 	//CurrentLocation.Z = CurrentLocation.Z - 0.2;
-	
-	CurrentLocation = CurrentLocation + (PlatformSpeed * DeltaTime * 100);
+	if(Active)
+		CurrentLocation = CurrentLocation + (PlatformSpeed * DeltaTime * 100);
+	else
+		CurrentLocation = CurrentLocation + (PlatformSpeed * DeltaTime * 0);
 
 	SetActorLocation(CurrentLocation);
 	

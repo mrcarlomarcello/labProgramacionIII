@@ -1,0 +1,8 @@
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/GameplayTasks/Classes/Tasks/GameplayTask_ClaimResource.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/GameplayTasks/Classes/Tasks/GameplayTask_SpawnActor.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/GameplayTasks/Classes/Tasks/GameplayTask_WaitDelay.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/GameplayTasks/Classes/Tasks/GameplayTask_TimeLimitedExecution.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/GameplayTasks/Classes/GameplayTask.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/GameplayTasks/Classes/GameplayTaskOwnerInterface.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/GameplayTasks/Classes/GameplayTaskResource.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/GameplayTasks/Classes/GameplayTasksComponent.h

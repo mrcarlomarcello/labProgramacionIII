@@ -1,0 +1,8 @@
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/TimeManagement/Public/FixedFrameRateCustomTimeStep.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/TimeManagement/Public/FrameNumberDisplayFormat.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/TimeManagement/Public/GenlockedCustomTimeStep.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/TimeManagement/Public/GenlockedFixedRateCustomTimeStep.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/TimeManagement/Public/GenlockedTimecodeProvider.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/TimeManagement/Public/ITimedDataInput.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/TimeManagement/Public/TimeManagementBlueprintLibrary.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/TimeManagement/Public/TimeSynchronizationSource.h

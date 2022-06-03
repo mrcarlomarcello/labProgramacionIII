@@ -1,0 +1,9 @@
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/AudioExtensions/Public/AudioParameter.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/AudioExtensions/Public/AudioParameterControllerInterface.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/AudioExtensions/Public/IAudioEndpoint.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/AudioExtensions/Public/IAudioExtensionPlugin.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/AudioExtensions/Public/IAudioModulation.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/AudioExtensions/Public/IAudioCodec.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/AudioExtensions/Public/ISoundfieldFormat.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/AudioExtensions/Public/ISoundfieldEndpoint.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/AudioExtensions/Private/PcmCodec.h

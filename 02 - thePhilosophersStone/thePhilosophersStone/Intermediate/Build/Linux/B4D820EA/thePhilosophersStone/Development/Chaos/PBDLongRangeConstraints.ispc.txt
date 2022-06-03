@@ -1,0 +1,6 @@
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/Core/Public/Math/Aossoa.isph
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/Core/Public/Math/Scalar.isph
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/Core/Public/Math/Soaaos.isph
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/Core/Public/Math/Vector.isph
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/Experimental/Chaos/Private/Chaos/PBDLongRangeConstraints.ispc
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/Experimental/Chaos/Private/Chaos/PBDSofts.isph

@@ -1,0 +1,11 @@
+"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/thePhilosophersStone/thePhilosophersStone.cpp.o"
+"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/thePhilosophersStone/MovingPlatform.cpp.o"
+"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/thePhilosophersStone/FloatingTV.cpp.o"
+"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/thePhilosophersStone/MovingPlatform.gen.cpp.o"
+"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/thePhilosophersStone/FloatingTV.gen.cpp.o"
+"/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/thePhilosophersStone/thePhilosophersStone.init.gen.cpp.o"
+ -soname="libUnrealEditor-thePhilosophersStone-1020.so"
+ -rpath-link="/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Binaries/Linux"
+ -L"/home/shello/Programs/UnrealEngine5.0.2/Engine/Binaries/Linux"
+ --start-group
+ --end-group

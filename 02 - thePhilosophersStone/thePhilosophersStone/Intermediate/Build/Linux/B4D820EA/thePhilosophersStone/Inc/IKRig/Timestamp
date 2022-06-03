@@ -1,0 +1,17 @@
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Animation/IKRig/Source/IKRig/Public/ActorComponents/IKRigComponent.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Animation/IKRig/Source/IKRig/Public/ActorComponents/IKRigInterface.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Animation/IKRig/Source/IKRig/Public/AnimNodes/AnimNode_IKRig.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Animation/IKRig/Source/IKRig/Public/AnimNodes/AnimNode_RetargetPoseFromMesh.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Animation/IKRig/Source/IKRig/Public/Retargeter/IKRetargetProcessor.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Animation/IKRig/Source/IKRig/Public/Solvers/IKRig_LimbSolver.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Animation/IKRig/Source/IKRig/Public/Solvers/IKRig_PBIKSolver.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Animation/IKRig/Source/IKRig/Public/Solvers/IKRig_BodyMover.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Animation/IKRig/Source/IKRig/Public/Retargeter/IKRetargeter.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Animation/IKRig/Source/IKRig/Public/Solvers/IKRig_PoleSolver.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Animation/IKRig/Source/IKRig/Public/Solvers/LimbSolver.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Animation/IKRig/Source/IKRig/Public/Solvers/IKRig_SetTransform.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Animation/IKRig/Source/IKRig/Public/IKRigDefinition.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Animation/IKRig/Source/IKRig/Public/IKRigDataTypes.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Animation/IKRig/Source/IKRig/Public/IKRigProcessor.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Animation/IKRig/Source/IKRig/Public/IKRigSkeleton.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Plugins/Animation/IKRig/Source/IKRig/Public/IKRigSolver.h

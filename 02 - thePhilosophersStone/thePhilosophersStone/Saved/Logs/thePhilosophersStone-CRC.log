@@ -1,4 +1,4 @@
-﻿Log file open, 05/31/22 14:56:31
+﻿Log file open, 06/02/22 19:39:51
 LogPlatformFile: Not using cached read wrapper
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogInit: Build: ++UE5+Release-5.0-CL-0
@@ -10,84 +10,123 @@ LogInit: Compiled (64-bit): May 30 2022 21:58:03
 LogInit: Compiled with Clang: 13.0.1 
 LogInit: Build Configuration: Shipping
 LogInit: Branch Name: ++UE5+Release-5.0
-LogInit: Command Line:  -Abslog="/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Saved/Logs/thePhilosophersStone-CRC.log" "/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Saved/Crashes/crashinfo-thePhilosophersStone-pid-2406179-7616B779FA554263AD9546010EC8AB2A/"
+LogInit: Command Line:  -Abslog="/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Saved/Logs/thePhilosophersStone-CRC.log" "/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Saved/Crashes/crashinfo-thePhilosophersStone-pid-1147252-6949B16E5F584EAF9BD17A542EA30F81/"
 LogInit: Base Directory: /home/shello/Programs/UnrealEngine5.0.2/Engine/Binaries/Linux/
 LogInit: Allocator: Mimalloc
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
-[2022.05.31-20.56.31:149][  0]LogInit: Unix hardware info:
-[2022.05.31-20.56.31:149][  0]LogInit:  - we are the first instance of this executable
-[2022.05.31-20.56.31:149][  0]LogInit:  - this process' id (pid) is 2418283, parent process' id (ppid) is 2406179
-[2022.05.31-20.56.31:149][  0]LogInit:  - we are not running under debugger
-[2022.05.31-20.56.31:149][  0]LogInit:  - machine network name is 'stealth'
-[2022.05.31-20.56.31:149][  0]LogInit:  - user name is 'shello' (shello)
-[2022.05.31-20.56.31:149][  0]LogInit:  - we're logged in locally
-[2022.05.31-20.56.31:149][  0]LogInit:  - we're running with rendering
-[2022.05.31-20.56.31:149][  0]LogInit:  - CPU: GenuineIntel '11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz' (signature: 0x806D1)
-[2022.05.31-20.56.31:149][  0]LogInit:  - Number of physical cores available for the process: 8
-[2022.05.31-20.56.31:149][  0]LogInit:  - Number of logical cores available for the process: 16
-[2022.05.31-20.56.31:149][  0]LogInit:  - Cache line size: 64
-[2022.05.31-20.56.31:149][  0]LogInit:  - GPU Info. Card0 PCI-id: 0x10de-0x249c NVRM version: NVIDIA UNIX x86_64 Kernel Module  515.43.04  Tue Apr 26 15:52:32 UTC 2022
-[2022.05.31-20.56.31:149][  0]LogInit:  - Memory allocator used: Mimalloc
-[2022.05.31-20.56.31:149][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
-[2022.05.31-20.56.31:149][  0]LogInit:  - This is an internal build.
-[2022.05.31-20.56.31:149][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
-[2022.05.31-20.56.31:149][  0]LogInit: Unix-specific commandline switches:
-[2022.05.31-20.56.31:149][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
-[2022.05.31-20.56.31:149][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
-[2022.05.31-20.56.31:149][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
-[2022.05.31-20.56.31:149][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
-[2022.05.31-20.56.31:149][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
-[2022.05.31-20.56.31:149][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
-[2022.05.31-20.56.31:149][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
-[2022.05.31-20.56.31:149][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
-[2022.05.31-20.56.31:149][  0]LogInit:  -crashhandlerstacksize - Allows setting crash handler stack sizes (204800)
-[2022.05.31-20.56.31:149][  0]LogInit:  -noexclusivelockonwrite - disables marking files created by the engine as exclusive locked while the engine has them opened
-[2022.05.31-20.56.31:149][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
-[2022.05.31-20.56.31:149][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
-[2022.05.31-20.56.31:149][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
-[2022.05.31-20.56.31:149][  0]LogInit:  - Physical RAM available (not considering process quota): 63 GB (64077 MB, 65615260 KB, 67190026240 bytes)
-[2022.05.31-20.56.31:149][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
-[2022.05.31-20.56.31:149][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
-[2022.05.31-20.56.31:151][  0]LogUObjectArray: 388 objects as part of root set at end of initial load.
-[2022.05.31-20.56.31:151][  0]LogUObjectAllocator: 79472 out of 0 bytes used by permanent object pool.
-[2022.05.31-20.56.31:151][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2022.05.31-20.56.31:151][  0]LogInit: Using OS detected language (en-US).
-[2022.05.31-20.56.31:151][  0]LogInit: Using OS detected locale (en-US).
-[2022.05.31-20.56.31:151][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
-[2022.05.31-20.56.31:163][  0]LogInit: Using OS detected language (en-US).
-[2022.05.31-20.56.31:163][  0]LogInit: Using OS detected locale (en-US).
-[2022.05.31-20.56.31:163][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
-[2022.05.31-20.56.31:163][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
-[2022.05.31-20.56.31:163][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 1 prioritized culture(s) in 0.000018 seconds
-[2022.05.31-20.56.31:163][  0]CrashReportCoreLog: CrashReportClientVersion=1.0
-[2022.05.31-20.56.31:163][  0]CrashReportCoreLog: CrashReportReceiver disabled
-[2022.05.31-20.56.31:163][  0]CrashReportCoreLog: DataRouterUrl: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data
-[2022.05.31-20.56.31:164][  0]LogInit: Initializing SDL.
-[2022.05.31-20.56.32:127][  0]LogInit: Initialized SDL 2.0.20 revision:  (compiled against 2.0.20)
-[2022.05.31-20.56.32:127][  0]LogInit: Using SDL video driver 'x11'
-[2022.05.31-20.56.32:129][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2022.05.31-20.56.32:129][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2022.05.31-20.56.32:129][  0]LogSlate: Using FreeType 2.10.0
-[2022.05.31-20.56.32:129][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.05.31-20.56.32:129][  0]LogInit: Using SDL_WINDOW_OPENGL
-[2022.05.31-20.56.32:133][  0]LogInit: FSlateOpenGLContext::Initialize - creating OpenGL 2.1 context
-[2022.05.31-20.56.32:179][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
-[2022.05.31-20.56.32:179][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
-[2022.05.31-20.56.32:195][  0]LogInit: FSlateOpenGLContext::Initialize - creating OpenGL 2.1 context
-[2022.05.31-20.56.32:198][  0]LogSlate: Took 0.000030 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2022.05.31-20.56.32:199][  0]LogSlate: Took 0.000035 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2022.05.31-20.56.32:200][  0]LogSlate: Took 0.000033 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2022.05.31-20.56.32:222][  0]LogCore: Error: appError called: Assertion failed: Data [File:./Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLVertexBuffer.cpp] [Line: 112] 
-
-
-[2022.05.31-20.56.32:222][  0]LogCore: === Critical error: ===
-
-
-[2022.05.31-20.56.32:222][  0]LogCore: Assertion failed: Data [File:./Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLVertexBuffer.cpp] [Line: 112] 
-
-
-
-
+[2022.06.03-01.39.51:728][  0]LogInit: Unix hardware info:
+[2022.06.03-01.39.51:728][  0]LogInit:  - we are the first instance of this executable
+[2022.06.03-01.39.51:728][  0]LogInit:  - this process' id (pid) is 1268108, parent process' id (ppid) is 1147252
+[2022.06.03-01.39.51:728][  0]LogInit:  - we are not running under debugger
+[2022.06.03-01.39.51:728][  0]LogInit:  - machine network name is 'stealth'
+[2022.06.03-01.39.51:728][  0]LogInit:  - user name is 'shello' (shello)
+[2022.06.03-01.39.51:728][  0]LogInit:  - we're logged in locally
+[2022.06.03-01.39.51:728][  0]LogInit:  - we're running with rendering
+[2022.06.03-01.39.51:728][  0]LogInit:  - CPU: GenuineIntel '11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz' (signature: 0x806D1)
+[2022.06.03-01.39.51:728][  0]LogInit:  - Number of physical cores available for the process: 8
+[2022.06.03-01.39.51:728][  0]LogInit:  - Number of logical cores available for the process: 16
+[2022.06.03-01.39.51:728][  0]LogInit:  - Cache line size: 64
+[2022.06.03-01.39.51:728][  0]LogInit:  - GPU Info. Card0 PCI-id: 0x10de-0x249c NVRM version: NVIDIA UNIX x86_64 Kernel Module  515.43.04  Tue Apr 26 15:52:32 UTC 2022
+[2022.06.03-01.39.51:728][  0]LogInit:  - Memory allocator used: Mimalloc
+[2022.06.03-01.39.51:728][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2022.06.03-01.39.51:728][  0]LogInit:  - This is an internal build.
+[2022.06.03-01.39.51:728][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2022.06.03-01.39.51:728][  0]LogInit: Unix-specific commandline switches:
+[2022.06.03-01.39.51:728][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2022.06.03-01.39.51:728][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2022.06.03-01.39.51:728][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2022.06.03-01.39.51:728][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2022.06.03-01.39.51:728][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2022.06.03-01.39.51:728][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2022.06.03-01.39.51:728][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2022.06.03-01.39.51:728][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2022.06.03-01.39.51:728][  0]LogInit:  -crashhandlerstacksize - Allows setting crash handler stack sizes (204800)
+[2022.06.03-01.39.51:728][  0]LogInit:  -noexclusivelockonwrite - disables marking files created by the engine as exclusive locked while the engine has them opened
+[2022.06.03-01.39.51:728][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2022.06.03-01.39.51:728][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2022.06.03-01.39.51:728][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2022.06.03-01.39.51:728][  0]LogInit:  - Physical RAM available (not considering process quota): 63 GB (64077 MB, 65615260 KB, 67190026240 bytes)
+[2022.06.03-01.39.51:728][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2022.06.03-01.39.51:728][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2022.06.03-01.39.51:731][  0]LogUObjectArray: 388 objects as part of root set at end of initial load.
+[2022.06.03-01.39.51:731][  0]LogUObjectAllocator: 79472 out of 0 bytes used by permanent object pool.
+[2022.06.03-01.39.51:731][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.06.03-01.39.51:731][  0]LogInit: Using OS detected language (en-US).
+[2022.06.03-01.39.51:731][  0]LogInit: Using OS detected locale (en-US).
+[2022.06.03-01.39.51:731][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2022.06.03-01.39.51:747][  0]LogInit: Using OS detected language (en-US).
+[2022.06.03-01.39.51:747][  0]LogInit: Using OS detected locale (en-US).
+[2022.06.03-01.39.51:747][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2022.06.03-01.39.51:747][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2022.06.03-01.39.51:747][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 1 prioritized culture(s) in 0.000027 seconds
+[2022.06.03-01.39.51:747][  0]CrashReportCoreLog: CrashReportClientVersion=1.0
+[2022.06.03-01.39.51:747][  0]CrashReportCoreLog: CrashReportReceiver disabled
+[2022.06.03-01.39.51:747][  0]CrashReportCoreLog: DataRouterUrl: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data
+[2022.06.03-01.39.51:748][  0]LogInit: Initializing SDL.
+[2022.06.03-01.39.51:941][  0]LogInit: Initialized SDL 2.0.20 revision:  (compiled against 2.0.20)
+[2022.06.03-01.39.51:941][  0]LogInit: Using SDL video driver 'x11'
+[2022.06.03-01.39.51:944][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.06.03-01.39.51:944][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.06.03-01.39.51:944][  0]LogSlate: Using FreeType 2.10.0
+[2022.06.03-01.39.51:944][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.06.03-01.39.51:944][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2022.06.03-01.39.51:950][  0]LogInit: FSlateOpenGLContext::Initialize - creating OpenGL 2.1 context
+[2022.06.03-01.39.52:019][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2022.06.03-01.39.52:019][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2022.06.03-01.39.52:024][  0]LogInit: FSlateOpenGLContext::Initialize - creating OpenGL 2.1 context
+[2022.06.03-01.39.52:027][  0]LogSlate: Took 0.000035 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.06.03-01.39.52:027][  0]LogSlate: Took 0.000030 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.06.03-01.39.52:029][  0]LogSlate: Took 0.000054 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.06.03-01.40.03:197][  0]CrashReportCoreLog: Got 4 pending files to upload from 'crashinfo-thePhilosophersStone-pid-1147252-6949B16E5F584EAF9BD17A542EA30F81'
+[2022.06.03-01.40.03:197][  0]CrashReportCoreLog: State change from Ready to SendingFiles
+[2022.06.03-01.40.03:197][  0]CrashReportCoreLog: CompressAndSendData have 4 pending files
+[2022.06.03-01.40.03:197][  0]CrashReportCoreLog: CompressAndSendData compressing 2343 bytes ('/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Saved/Crashes/crashinfo-thePhilosophersStone-pid-1147252-6949B16E5F584EAF9BD17A542EA30F81/Diagnostics.txt')
+[2022.06.03-01.40.03:197][  0]CrashReportCoreLog: CompressAndSendData compressing 26816 bytes ('/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Saved/Crashes/crashinfo-thePhilosophersStone-pid-1147252-6949B16E5F584EAF9BD17A542EA30F81/CrashContext.runtime-xml')
+[2022.06.03-01.40.03:197][  0]CrashReportCoreLog: CompressAndSendData compressing 168395 bytes ('/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Saved/Crashes/crashinfo-thePhilosophersStone-pid-1147252-6949B16E5F584EAF9BD17A542EA30F81/thePhilosophersStone.log')
+[2022.06.03-01.40.03:197][  0]CrashReportCoreLog: CompressAndSendData compressing 107 bytes ('/home/shello/Documents/labProgramacionIII/02 - thePhilosophersStone/thePhilosophersStone/Saved/Crashes/crashinfo-thePhilosophersStone-pid-1147252-6949B16E5F584EAF9BD17A542EA30F81/CrashReportClient.ini')
+[2022.06.03-01.40.03:216][  0]LogInit: Using libcurl 7.65.3-DEV
+[2022.06.03-01.40.03:216][  0]LogInit:  - built for x86_64-unknown-linux-gnu
+[2022.06.03-01.40.03:216][  0]LogInit:  - supports SSL with OpenSSL/1.1.1c
+[2022.06.03-01.40.03:216][  0]LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+[2022.06.03-01.40.03:216][  0]LogInit:  - other features:
+[2022.06.03-01.40.03:216][  0]LogInit:      CURL_VERSION_SSL
+[2022.06.03-01.40.03:216][  0]LogInit:      CURL_VERSION_LIBZ
+[2022.06.03-01.40.03:216][  0]LogInit:      CURL_VERSION_IPV6
+[2022.06.03-01.40.03:216][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2022.06.03-01.40.03:216][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2022.06.03-01.40.03:216][  0]LogInit:      CURL_VERSION_TLSAUTH_SRP
+[2022.06.03-01.40.03:216][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2022.06.03-01.40.03:216][  0]LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+[2022.06.03-01.40.03:216][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2022.06.03-01.40.03:216][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2022.06.03-01.40.03:216][  0]LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+[2022.06.03-01.40.03:216][  0]LogInit:  - LocalHostAddr = Default
+[2022.06.03-01.40.03:216][  0]LogInit:  - BufferSize = 65536
+[2022.06.03-01.40.03:216][  0]CrashReportCoreLog: Sending HTTP request: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=CrashReporter&AppVersion=5.0.2-0%2B%2B%2BUE5%2BRelease-5.0&AppEnvironment=Release&UploadType=crashreports&UserID=45b71e208ec74cb1948bc01a7243cfc1-000003e8%7C%7C45b71e208ec74cb1948bc01a7243cfc1
+[2022.06.03-01.40.03:597][  0]CrashReportCoreLog: OnProcessRequestComplete(), State=SendingFiles bSucceeded=1
+[2022.06.03-01.40.03:597][  0]CrashReportCoreLog: State change from SendingFiles to SendingFiles
+[2022.06.03-01.40.03:597][  0]CrashReportCoreLog: All uploads done
+[2022.06.03-01.40.03:597][  0]CrashReportCoreLog: State change from SendingFiles to Finished
+[2022.06.03-01.40.04:232][  0]LogSlate: Request Window 'UE5-thePhilosophersStone Crash Reporter' being destroyed
+[2022.06.03-01.40.04:232][  0]LogSlate: Window 'UE5-thePhilosophersStone Crash Reporter' being destroyed
+[2022.06.03-01.40.04:233][  0]LogCore: Engine exit requested (reason: OnRequestExit)
+[2022.06.03-01.40.04:234][  0]CrashReportCoreLog: Final state (Receiver) = Finished
+[2022.06.03-01.40.04:234][  0]CrashReportCoreLog: Final state (Receiver) = Unknown UploadState value
+[2022.06.03-01.40.04:235][  0]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.06.03-01.40.04:235][  0]LogCore: Engine exit requested (reason: CrashReportClientApp RequestExit; note: exit was already requested)
+[2022.06.03-01.40.04:235][  0]LogExit: Preparing to exit.
+[2022.06.03-01.40.04:236][  0]LogExit: Object subsystem successfully closed.
+[2022.06.03-01.40.04:236][  0]LogModuleManager: Shutting down and abandoning module HTTP (14)
+[2022.06.03-01.40.04:236][  0]LogHttp: Warning: Cleaning up 0 outstanding Http requests.
+[2022.06.03-01.40.04:247][  0]LogModuleManager: Shutting down and abandoning module SSL (13)
+[2022.06.03-01.40.04:247][  0]LogModuleManager: Shutting down and abandoning module ImageWrapper (10)
+[2022.06.03-01.40.04:247][  0]LogModuleManager: Shutting down and abandoning module InputCore (8)
+[2022.06.03-01.40.04:247][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (6)
+[2022.06.03-01.40.04:247][  0]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.06.03-01.40.04:247][  0]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.06.03-01.40.04:248][  0]LogExit: Exiting.
+[2022.06.03-01.40.04:248][  0]LogInit: Tearing down SDL.
+[2022.06.03-01.40.04:256][  0]Log file closed, 06/02/22 19:40:04

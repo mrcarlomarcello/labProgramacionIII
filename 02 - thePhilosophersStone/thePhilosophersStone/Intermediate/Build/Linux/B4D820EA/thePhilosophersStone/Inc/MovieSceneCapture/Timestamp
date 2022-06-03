@@ -1,0 +1,12 @@
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/MovieSceneCapture/Public/Protocols/AudioCaptureProtocol.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/MovieSceneCapture/Public/Protocols/CompositionGraphCaptureProtocol.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/MovieSceneCapture/Public/Protocols/FrameGrabberProtocol.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/MovieSceneCapture/Public/Protocols/ImageSequenceProtocol.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/MovieSceneCapture/Public/Protocols/UserDefinedCaptureProtocol.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/MovieSceneCapture/Public/Protocols/VideoCaptureProtocol.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/MovieSceneCapture/Public/IMovieSceneCapture.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/MovieSceneCapture/Public/LevelCapture.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/MovieSceneCapture/Public/MovieSceneCapture.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/MovieSceneCapture/Public/MovieSceneCaptureEnvironment.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/MovieSceneCapture/Public/MovieSceneCaptureProtocolBase.h
+/home/shello/Programs/UnrealEngine5.0.1/Engine/Source/Runtime/MovieSceneCapture/Public/MovieSceneCaptureSettings.h
