@@ -19,7 +19,9 @@ void AMovingPlatform::BeginPlay()
 	
 	//Variable que dura toda la instancia de BeginPlay() usamos para hacer el return de la plataforma.
 	StartLocation = GetActorLocation();
-	Active = false;
+	
+	//Active Movement se setea con esta variable
+	Active = true;
 
 }
 

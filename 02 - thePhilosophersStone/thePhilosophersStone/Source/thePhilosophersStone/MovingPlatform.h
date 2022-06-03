@@ -41,7 +41,8 @@ public:
 	
 	//No vamos a usar UPROPERTY(EditAnywhere) solo lo veremos en código
 	FVector StartLocation;
-
+	
+	UPROPERTY(EditAnywhere, Category = "Moving Platform");
 	bool Active;
 	
 };
