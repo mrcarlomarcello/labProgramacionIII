@@ -28,6 +28,11 @@ void EmptyLinkFunctionForGeneratedCodeShootingCharacter() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_RotationRate_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_RotationRate;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -42,6 +47,18 @@ void EmptyLinkFunctionForGeneratedCodeShootingCharacter() {}
 		{ "ModuleRelativePath", "ShootingCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShootingCharacter_Statics::NewProp_RotationRate_MetaData[] = {
+		{ "Category", "ShootingCharacter" },
+		{ "Comment", "//ESTA PROPIEDAD TENDREMOS QUE AGREGARLA A SETTINGS DESPUES!!!\n" },
+		{ "ModuleRelativePath", "ShootingCharacter.h" },
+		{ "ToolTip", "ESTA PROPIEDAD TENDREMOS QUE AGREGARLA A SETTINGS DESPUES!!!" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AShootingCharacter_Statics::NewProp_RotationRate = { "RotationRate", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShootingCharacter, RotationRate), METADATA_PARAMS(Z_Construct_UClass_AShootingCharacter_Statics::NewProp_RotationRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShootingCharacter_Statics::NewProp_RotationRate_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AShootingCharacter_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShootingCharacter_Statics::NewProp_RotationRate,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AShootingCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AShootingCharacter>::IsAbstract,
 	};
@@ -51,11 +68,11 @@ void EmptyLinkFunctionForGeneratedCodeShootingCharacter() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AShootingCharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AShootingCharacter_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AShootingCharacter_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AShootingCharacter_Statics::Class_MetaDataParams))
@@ -78,9 +95,9 @@ void EmptyLinkFunctionForGeneratedCodeShootingCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AShootingCharacter, AShootingCharacter::StaticClass, TEXT("AShootingCharacter"), &Z_Registration_Info_UClass_AShootingCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShootingCharacter), 2545907244U) },
+		{ Z_Construct_UClass_AShootingCharacter, AShootingCharacter::StaticClass, TEXT("AShootingCharacter"), &Z_Registration_Info_UClass_AShootingCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShootingCharacter), 1901325391U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingCharacter_h_66432292(TEXT("/Script/thePhilosophersStone"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingCharacter_h_4212047111(TEXT("/Script/thePhilosophersStone"),
 		Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

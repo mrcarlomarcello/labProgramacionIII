@@ -27,6 +27,8 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 private:
+
+	//EL MAPEO NUEVO OVERRIDE DE LA CLASE HEREDADA ACHARACTER
 	void MoveForward(float AxisValue);
 	void MoveRight(float AxisValue);
 	void TurnRightRate(float AxisValue);
@@ -34,4 +36,8 @@ private:
 	void LookUpRate(float AxisValue);	
 	void LookUp(float AxisValue);	
 	
+	//ESTA PROPIEDAD TENDREMOS QUE AGREGARLA A SETTINGS DESPUES!!!
+	UPROPERTY(EditAnywhere)
+	float RotationRate = 75;
+
 };
