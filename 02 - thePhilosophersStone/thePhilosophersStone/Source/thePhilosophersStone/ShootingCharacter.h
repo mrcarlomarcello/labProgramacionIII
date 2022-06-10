@@ -28,7 +28,10 @@ public:
 
 private:
 	void MoveForward(float AxisValue);
-	void LookUp(float AxisValue);
 	void MoveRight(float AxisValue);
+	void TurnRightRate(float AxisValue);
 	void TurnRight(float AxisValue);
+	void LookUpRate(float AxisValue);	
+	void LookUp(float AxisValue);	
+	
 };

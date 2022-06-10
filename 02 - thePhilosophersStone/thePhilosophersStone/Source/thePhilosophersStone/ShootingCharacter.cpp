@@ -33,9 +33,11 @@ void AShootingCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputC
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 	PlayerInputComponent->BindAxis(TEXT("MoveForward"), this, &AShootingCharacter::MoveForward);
-	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &AShootingCharacter::LookUp);
 	PlayerInputComponent->BindAxis(TEXT("MoveRight"), this, &AShootingCharacter::MoveRight);
+	PlayerInputComponent->BindAxis(TEXT("TurnRightRate"), this, &AShootingCharacter::TurnRightRate);
 	PlayerInputComponent->BindAxis(TEXT("TurnRight"), this, &AShootingCharacter::TurnRight);
+	PlayerInputComponent->BindAxis(TEXT("LookUpRate"), this, &AShootingCharacter::LookUpRate);		
+	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &AShootingCharacter::LookUp);		
 }
 
 void AShootingCharacter::MoveForward(float AxisValue)
@@ -43,18 +45,33 @@ void AShootingCharacter::MoveForward(float AxisValue)
 	AddMovementInput(GetActorForwardVector() * AxisValue);
 }
 
+void AShootingCharacter::MoveRight(float AxisValue)
+{
+	AddMovementInput(GetActorRightVector() * AxisValue);
+}
+
+void AShootingCharacter::TurnRightRate(float AxisValue)
+{
+	//AddMovementInput(GetActorRightVector() * AxisValue);
+	AddControllerYawInput(AxisValue);
+}
+
+void AShootingCharacter::TurnRight(float AxisValue)
+{
+	AddControllerYawInput(AxisValue);
+}
+
+void AShootingCharacter::LookUpRate(float AxisValue)
+{
+	AddControllerPitchInput(AxisValue);
+}
+
 void AShootingCharacter::LookUp(float AxisValue)
 {
 	AddControllerPitchInput(AxisValue);
 }
 
-void AShootingCharacter::MoveRight(float AxisValue)
-{
-	AddMovementInput(GetActorForwardVector() * AxisValue);
-}
 
-void AShootingCharacter::TurnRight(float AxisValue)
-{
-	AddControllerPitchInput(AxisValue);
-}
+
+
 
