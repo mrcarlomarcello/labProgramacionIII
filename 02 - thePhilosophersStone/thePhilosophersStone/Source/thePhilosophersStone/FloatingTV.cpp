@@ -31,6 +31,7 @@ void AFloatingTV::Tick(float DeltaTime)
 	
 	//CurrentLocation.Y = CurrentLocation.Y + 3;
 	//CurrentLocation.Z = CurrentLocation.Z - 0.2;
+	
 	if(Active)
 		CurrentLocation = CurrentLocation + (PlatformSpeed * DeltaTime * 100);
 	else

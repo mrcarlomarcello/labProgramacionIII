@@ -1,0 +1,43 @@
+Generating report for minidump
+
+Application version 5.0.2.0
+ ... built from changelist 0
+
+OS version Linux 5.18.1-zen1-1-zen (network name: stealth)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000003"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-VulkanRHI.so!FVulkanSurface::FVulkanSurface(FVulkanDevice&, FVulkanEvictable*, VkImageViewType, EPixelFormat, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, ETextureCreateFlags, ERHIAccess, FRHIResourceCreateInfo const&, FRHITransientHeapAllocation const*) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/VulkanRHI/Private/VulkanTexture.cpp:698]
+libUnrealEditor-VulkanRHI.so!FVulkanTextureBase::FVulkanTextureBase(FVulkanDevice&, VkImageViewType, EPixelFormat, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, ETextureCreateFlags, ERHIAccess, FRHIResourceCreateInfo const&, FRHITransientHeapAllocation const*) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/VulkanRHI/Private/VulkanTexture.cpp:1971]
+libUnrealEditor-VulkanRHI.so!FVulkanTexture2D::FVulkanTexture2D(FVulkanDevice&, EPixelFormat, unsigned int, unsigned int, unsigned int, unsigned int, ETextureCreateFlags, ERHIAccess, FRHIResourceCreateInfo const&, FRHITransientHeapAllocation const*) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/VulkanRHI/Private/VulkanTexture.cpp:2299]
+libUnrealEditor-VulkanRHI.so!FVulkanDynamicRHI::CreateTexture(FRHITextureCreateInfo const&, FRHIResourceCreateInfo&, ERHIAccess, FRHITransientHeapAllocation const*) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/VulkanRHI/Private/VulkanTexture.cpp:1319]
+libUnrealEditor-VulkanRHI.so!UE::Core::Private::Function::TFunctionRefCaller<FVulkanTransientResourceAllocator::CreateTexture(FRHITextureCreateInfo const&, char16_t const*, unsigned int)::$_209, FRHITransientTexture* (FRHITransientHeap::FResourceInitializer const&)>::Call(void*, FRHITransientHeap::FResourceInitializer const&) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/Runtime/Core/Public/Templates/Function.h:539]
+libUnrealEditor-RHICore.so!FRHITransientHeap::CreateTexture(FRHITextureCreateInfo const&, char16_t const*, unsigned int, unsigned long long, unsigned long long, unsigned int, TFunction<FRHITransientTexture* (FRHITransientHeap::FResourceInitializer const&)>) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/RHICore/Private/RHICoreTransientResourceAllocator.cpp:439]
+libUnrealEditor-RHICore.so!FRHITransientResourceHeapAllocator::CreateTextureInternal(FRHITextureCreateInfo const&, char16_t const*, unsigned int, unsigned long long, unsigned int, TFunction<FRHITransientTexture* (FRHITransientHeap::FResourceInitializer const&)>) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/RHICore/Private/RHICoreTransientResourceAllocator.cpp:722]
+libUnrealEditor-VulkanRHI.so!FVulkanTransientResourceAllocator::CreateTexture(FRHITextureCreateInfo const&, char16_t const*, unsigned int) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/VulkanRHI/Private/VulkanTransientResourceAllocator.cpp:115]
+libUnrealEditor-RenderCore.so!FRDGBuilder::BeginResourceRHI(TRDGHandle<FRDGPass, unsigned short>, FRDGTexture*) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/RenderCore/Private/RenderGraphBuilder.cpp:2996]
+libUnrealEditor-RenderCore.so!FRDGBuilder::BeginResourcesRHI(FRDGPass*, TRDGHandle<FRDGPass, unsigned short>) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/RenderCore/Private/RenderGraphBuilder.cpp:2483]
+libUnrealEditor-RenderCore.so!FRDGBuilder::Execute() [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/RenderCore/Private/RenderGraphBuilder.cpp:1499]
+libUnrealEditor-Renderer.so!RenderViewFamily_RenderThread(FRHICommandListImmediate&, FSceneRenderer*) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/Renderer/Private/SceneRendering.cpp:4101]
+libUnrealEditor-Renderer.so!FRendererModule::BeginRenderingViewFamily(FCanvas*, FSceneViewFamily*)::$_57::operator()(FRHICommandListImmediate&) const [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/Renderer/Private/SceneRendering.cpp:4351]
+libUnrealEditor-Renderer.so!TEnqueueUniqueRenderCommandType<FRendererModule::BeginRenderingViewFamily(FCanvas*, FSceneViewFamily*)::FDrawSceneCommandName, FRendererModule::BeginRenderingViewFamily(FCanvas*, FSceneViewFamily*)::$_57>::DoTask(ENamedThreads::Type, TRefCountPtr<FGraphEvent> const&) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/Runtime/RenderCore/Public/RenderingThread.h:193]
+libUnrealEditor-Renderer.so!TGraphTask<TEnqueueUniqueRenderCommandType<FRendererModule::BeginRenderingViewFamily(FCanvas*, FSceneViewFamily*)::FDrawSceneCommandName, FRendererModule::BeginRenderingViewFamily(FCanvas*, FSceneViewFamily*)::$_57> >::ExecuteTask(TArray<FBaseGraphTask*, TSizedDefaultAllocator<32> >&, ENamedThreads::Type, bool) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/Runtime/Core/Public/Async/TaskGraphInterfaces.h:975]
+libUnrealEditor-Core.so!FNamedTaskThread::ProcessTasksNamedThread(int, bool) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/Core/Private/Async/TaskGraph.cpp:753]
+libUnrealEditor-Core.so!FNamedTaskThread::ProcessTasksUntilQuit(int) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/Core/Private/Async/TaskGraph.cpp:641]
+libUnrealEditor-Core.so!FTaskGraphCompatibilityImplementation::ProcessThreadUntilRequestReturn(ENamedThreads::Type) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/Core/Private/Async/TaskGraph.cpp:2114]
+libUnrealEditor-RenderCore.so!RenderingThreadMain(FEvent*) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/RenderCore/Private/RenderingThread.cpp:380]
+libUnrealEditor-RenderCore.so!FRenderingThread::Run() [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/RenderCore/Private/RenderingThread.cpp:544]
+libUnrealEditor-Core.so!FRunnableThreadPThread::Run() [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/Core/Private/HAL/PThreadRunnableThread.cpp:25]
+libUnrealEditor-Core.so!FRunnableThreadPThread::_ThreadProc(void*) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.h:185]
+libc.so.6!UnknownFunction(0x8c54c)
+libc.so.6!clone(+0x43)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
