@@ -1902,4 +1902,6 @@
   Runtime/CoreUObject/Public/UObject/Class.h \
   ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/RootMotionSource.generated.h \
   ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/Character.generated.h \
-  /home/shello/Documents/labProgramacionIII/02\ -\ thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/thePhilosophersStone/ShootingCharacter.generated.h
+  /home/shello/Documents/labProgramacionIII/02\ -\ thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/thePhilosophersStone/ShootingCharacter.generated.h \
+  /home/shello/Documents/labProgramacionIII/02\ -\ thePhilosophersStone/thePhilosophersStone/Source/thePhilosophersStone/Gun.h \
+  /home/shello/Documents/labProgramacionIII/02\ -\ thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/thePhilosophersStone/Gun.generated.h

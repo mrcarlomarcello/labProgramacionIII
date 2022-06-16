@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodethePhilosophersStone_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xC0CFC32D,
-				0x0E95208C,
+				0xDF870F65,
+				0x4E86C079,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_thePhilosophersStone.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_thePhilosophersStone.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_thePhilosophersStone(Z_Construct_UPackage__Script_thePhilosophersStone, TEXT("/Script/thePhilosophersStone"), Z_Registration_Info_UPackage__Script_thePhilosophersStone, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xC0CFC32D, 0x0E95208C));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_thePhilosophersStone(Z_Construct_UPackage__Script_thePhilosophersStone, TEXT("/Script/thePhilosophersStone"), Z_Registration_Info_UPackage__Script_thePhilosophersStone, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xDF870F65, 0x4E86C079));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

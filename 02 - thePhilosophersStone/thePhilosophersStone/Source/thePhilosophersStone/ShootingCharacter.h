@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "ShootingCharacter.generated.h"
 
+class AGun;
+
 UCLASS()
 class THEPHILOSOPHERSSTONE_API AShootingCharacter : public ACharacter
 {
@@ -34,10 +36,19 @@ private:
 	void TurnRightRate(float AxisValue);
 	void TurnRight(float AxisValue);
 	void LookUpRate(float AxisValue);	
-	void LookUp(float AxisValue);	
+	void LookUp(float AxisValue);
+
+	//Haremos una shooting Function
+	void Shoot();	
 	
 	//ESTA PROPIEDAD TENDREMOS QUE AGREGARLA A SETTINGS DESPUES!!!
 	UPROPERTY(EditAnywhere)
 	float RotationRate = 75;
+
+	UPROPERTY(EditDefaultsOnly)
+	TSubclassOf<AGun> GunClass;
+
+	UPROPERTY()
+	AGun* Gun;
 
 };

@@ -13,6 +13,8 @@ void EmptyLinkFunctionForGeneratedCodeShootingCharacter() {}
 	THEPHILOSOPHERSSTONE_API UClass* Z_Construct_UClass_AShootingCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_thePhilosophersStone();
+	THEPHILOSOPHERSSTONE_API UClass* Z_Construct_UClass_AGun_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 // End Cross Module References
 	void AShootingCharacter::StaticRegisterNativesAShootingCharacter()
 	{
@@ -32,6 +34,14 @@ void EmptyLinkFunctionForGeneratedCodeShootingCharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_RotationRate_MetaData[];
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_RotationRate;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GunClass_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_GunClass;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Gun_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_Gun;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -56,8 +66,23 @@ void EmptyLinkFunctionForGeneratedCodeShootingCharacter() {}
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AShootingCharacter_Statics::NewProp_RotationRate = { "RotationRate", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShootingCharacter, RotationRate), METADATA_PARAMS(Z_Construct_UClass_AShootingCharacter_Statics::NewProp_RotationRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShootingCharacter_Statics::NewProp_RotationRate_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShootingCharacter_Statics::NewProp_GunClass_MetaData[] = {
+		{ "Category", "ShootingCharacter" },
+		{ "ModuleRelativePath", "ShootingCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AShootingCharacter_Statics::NewProp_GunClass = { "GunClass", nullptr, (EPropertyFlags)0x0044000000010001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShootingCharacter, GunClass), Z_Construct_UClass_AGun_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AShootingCharacter_Statics::NewProp_GunClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShootingCharacter_Statics::NewProp_GunClass_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShootingCharacter_Statics::NewProp_Gun_MetaData[] = {
+		{ "ModuleRelativePath", "ShootingCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AShootingCharacter_Statics::NewProp_Gun = { "Gun", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShootingCharacter, Gun), Z_Construct_UClass_AGun_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AShootingCharacter_Statics::NewProp_Gun_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShootingCharacter_Statics::NewProp_Gun_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AShootingCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShootingCharacter_Statics::NewProp_RotationRate,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShootingCharacter_Statics::NewProp_GunClass,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShootingCharacter_Statics::NewProp_Gun,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AShootingCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AShootingCharacter>::IsAbstract,
@@ -95,9 +120,9 @@ void EmptyLinkFunctionForGeneratedCodeShootingCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AShootingCharacter, AShootingCharacter::StaticClass, TEXT("AShootingCharacter"), &Z_Registration_Info_UClass_AShootingCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShootingCharacter), 1901325391U) },
+		{ Z_Construct_UClass_AShootingCharacter, AShootingCharacter::StaticClass, TEXT("AShootingCharacter"), &Z_Registration_Info_UClass_AShootingCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShootingCharacter), 3593852870U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingCharacter_h_4212047111(TEXT("/Script/thePhilosophersStone"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingCharacter_h_2755403957(TEXT("/Script/thePhilosophersStone"),
 		Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

@@ -2,7 +2,7 @@
 
 
 #include "ShootingCharacter.h"
-
+#include "Gun.h"
 
 // Sets default values
 AShootingCharacter::AShootingCharacter()
@@ -16,7 +16,20 @@ AShootingCharacter::AShootingCharacter()
 void AShootingCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+
+	//EN EL BEGING PLAY DE ESTE CHARACTER TENEMOS QUE CARGAR LA PISTOLA 
+	// Parecido al proyecto de Proyectiles
+
 	
+
+	//Manual -> El weapon_r lo encontramos en el mesh de la animación en el editor! Hide it, este es la animación normal
+	GetMesh()->HideBoneByName(TEXT("weapon_r"), EPhysBodyOp::PBO_None);
+
+	
+	//World es sinonimo de Nivel, asi que nos regresará el nivel actual
+	Gun = GetWorld()->SpawnActor<AGun>(GunClass);
+	Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("WeaponSocket"));
+	Gun->SetOwner(this);
 }
 
 // Called every frame
@@ -39,6 +52,8 @@ void AShootingCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputC
 	PlayerInputComponent->BindAxis(TEXT("LookUpRate"), this, &AShootingCharacter::LookUpRate);		
 	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &AShootingCharacter::LookUp);
 	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ACharacter::Jump);		
+	PlayerInputComponent->BindAction(TEXT("Shoot"), EInputEvent::IE_Pressed, this, &AShootingCharacter::Shoot);		
+	
 }
 
 //MAPPEO MANUAL DEL SHOOTING SKELETON!!!
@@ -71,6 +86,12 @@ void AShootingCharacter::LookUpRate(float AxisValue)
 void AShootingCharacter::LookUp(float AxisValue)
 {
 	AddControllerPitchInput(AxisValue);
+}
+
+void AShootingCharacter::Shoot()
+{
+	Gun->PullTrigger();
+	
 }
 
 
