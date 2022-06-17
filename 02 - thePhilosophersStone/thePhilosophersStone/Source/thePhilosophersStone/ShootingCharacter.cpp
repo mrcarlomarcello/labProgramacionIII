@@ -35,6 +35,11 @@ void AShootingCharacter::BeginPlay()
 	Gun->SetOwner(this);
 }
 
+bool AShootingCharacter::isDead() const
+{
+	return Health <= 0;
+}
+
 // Called every frame
 void AShootingCharacter::Tick(float DeltaTime)
 {
