@@ -17,6 +17,9 @@ void AShootingCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
+	//Aqui usaremos la variable Health para tener un float de referencia
+	Health = MaxHealth;
+
 	//EN EL BEGING PLAY DE ESTE CHARACTER TENEMOS QUE CARGAR LA PISTOLA 
 	// Parecido al proyecto de Proyectiles
 
@@ -56,6 +59,19 @@ void AShootingCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputC
 	
 }
 
+float AShootingCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser)
+{
+	float DamageToApply = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
+	
+	DamageToApply = FMath::Min(Health, DamageToApply);
+	Health -= DamageToApply;
+
+	//Enviamos a Log
+	UE_LOG(LogTemp, Warning, TEXT("Health left %f"), Health);
+
+	return DamageToApply;
+}
+
 //MAPPEO MANUAL DEL SHOOTING SKELETON!!!
 void AShootingCharacter::MoveForward(float AxisValue)
 {
@@ -90,8 +106,7 @@ void AShootingCharacter::LookUp(float AxisValue)
 
 void AShootingCharacter::Shoot()
 {
-	Gun->PullTrigger();
-	
+	Gun->PullTrigger();	
 }
 
 

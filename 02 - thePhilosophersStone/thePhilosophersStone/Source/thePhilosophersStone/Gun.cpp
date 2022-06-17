@@ -23,7 +23,8 @@ AGun::AGun()
 }
 
 void AGun::PullTrigger()
-{
+{	
+	//SPAWN DEL ARMA EN LAS MANOS DEL SHOOTINGCHARACTER
 	UE_LOG(LogTemp, Warning, TEXT("You have just been shot Sire!"));
 	//Vamos a Spawn un efecto includo en el paquete de armas
 	UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, Mesh, TEXT("MuzzleFlashSocket"));
@@ -40,7 +41,36 @@ void AGun::PullTrigger()
 	FVector Location;
 	FRotator Rotation;
 	OwnerController->GetPlayerViewPoint(Location, Rotation);
-	DrawDebugCamera(GetWorld(), Location, Rotation, 90, 2, FColor::Red, true);
+	
+	//Calculos para las balas
+	FVector End = Location + Rotation.Vector()*MaxRange;
+	//TODO: Line Trace
+
+
+		//===========DEGUB SECTION================//
+		//Dibuja DebugCameras! Turn OFF para endGameplay
+		DrawDebugCamera(GetWorld(), Location, Rotation, 90, 2, FColor::Red, true);
+		DrawDebugPoint(GetWorld(), Location, 20, FColor::Red, true);
+
+		FHitResult Hit;
+		bool bulletSuccess = GetWorld()->LineTraceSingleByChannel(Hit, Location, End, ECollisionChannel::ECC_GameTraceChannel1);
+		
+		if(bulletSuccess)
+		{
+			FVector ShotDirection = -Rotation.Vector();
+			DrawDebugPoint(GetWorld(), Hit.Location, 20, FColor::Blue, true);
+			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactEffect, Hit.Location, ShotDirection.Rotation());
+			
+			
+			AActor* HitActor = Hit.GetActor();
+			if(HitActor != nullptr)
+			{
+				FPointDamageEvent DamageEvent(Damage, Hit, ShotDirection, nullptr);				
+				HitActor->TakeDamage(Damage, DamageEvent, OwnerController, this);
+			}
+		}
+		//===========DEGUB SECTION================//
+
 }
 
 // Called when the game starts or when spawned

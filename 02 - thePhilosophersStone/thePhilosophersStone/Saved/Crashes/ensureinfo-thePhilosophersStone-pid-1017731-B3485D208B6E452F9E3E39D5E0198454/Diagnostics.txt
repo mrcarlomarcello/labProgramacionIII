@@ -1,0 +1,34 @@
+Generating report for minidump
+
+Application version 5.0.2.0
+ ... built from changelist 0
+
+OS version Linux 5.18.3-zen1-1-zen (network name: stealth)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "Ensure condition failed: Layout == VK_IMAGE_LAYOUT_SHARED_PRESENT_KHR || Layout == VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_STENCIL_ATTACHMENT_OPTIMAL || Layout == VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_STENCIL_READ_ONLY_OPTIMAL || Layout == VK_IMAGE_LAYOUT_DEPTH_STENC"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-VulkanRHI.so!bool FVulkanDescriptorSetWriter::WriteTextureView<(VkDescriptorType)2>(unsigned int, FVulkanTextureView const&, VkImageLayout) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/Runtime/VulkanRHI/Private/VulkanDescriptorSets.h:1205]
+libUnrealEditor-VulkanRHI.so!FVulkanCommonPipelineDescriptorState::SetTexture(unsigned char, unsigned int, FVulkanTextureBase const*, VkImageLayout) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/Runtime/VulkanRHI/Private/VulkanPipelineState.h:86]
+libUnrealEditor-VulkanRHI.so!FVulkanCommandListContext::RHISetShaderTexture(FRHIGraphicsShader*, unsigned int, FRHITexture*) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/VulkanRHI/Private/VulkanCommands.cpp:230]
+libUnrealEditor-Engine.so!FRHICommand<FRHICommandSetShaderTexture<FRHIGraphicsShader>, FRHICommandSetShaderTextureString>::ExecuteAndDestruct(FRHICommandListBase&, FRHICommandListDebugContext&) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/Runtime/RHI/Public/RHICommandList.h:768]
+libUnrealEditor-RHI.so!FRHICommandListExecutor::ExecuteInner_DoExecute(FRHICommandListBase&) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/RHI/Private/RHICommandList.cpp:503]
+libUnrealEditor-RHI.so!FExecuteRHIThreadTask::DoTask(ENamedThreads::Type, TRefCountPtr<FGraphEvent> const&) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/RHI/Private/RHICommandList.cpp:559]
+libUnrealEditor-RHI.so!TGraphTask<FExecuteRHIThreadTask>::ExecuteTask(TArray<FBaseGraphTask*, TSizedDefaultAllocator<32> >&, ENamedThreads::Type, bool) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/Runtime/Core/Public/Async/TaskGraphInterfaces.h:975]
+libUnrealEditor-Core.so!FNamedTaskThread::ProcessTasksNamedThread(int, bool) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/Core/Private/Async/TaskGraph.cpp:753]
+libUnrealEditor-Core.so!FNamedTaskThread::ProcessTasksUntilQuit(int) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/Core/Private/Async/TaskGraph.cpp:641]
+libUnrealEditor-Core.so!FTaskGraphCompatibilityImplementation::ProcessThreadUntilRequestReturn(ENamedThreads::Type) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/Core/Private/Async/TaskGraph.cpp:2114]
+libUnrealEditor-RenderCore.so!FRHIThread::Run() [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/RenderCore/Private/RenderingThread.cpp:324]
+libUnrealEditor-Core.so!FRunnableThreadPThread::Run() [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/./Runtime/Core/Private/HAL/PThreadRunnableThread.cpp:25]
+libUnrealEditor-Core.so!FRunnableThreadPThread::_ThreadProc(void*) [/home/shello/Programs/UnrealEngine5.0.2/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.h:185]
+libc.so.6!UnknownFunction(0x8c54c)
+libc.so.6!clone(+0x43)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
