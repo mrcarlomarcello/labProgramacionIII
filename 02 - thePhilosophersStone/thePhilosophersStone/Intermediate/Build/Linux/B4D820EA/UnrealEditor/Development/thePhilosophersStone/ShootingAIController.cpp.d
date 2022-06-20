@@ -1945,4 +1945,25 @@
   Runtime/Engine/Public/VisualLogger/VisualLoggerDebugSnapshotInterface.h \
   ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/VisualLoggerDebugSnapshotInterface.generated.h \
   ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/AIModule/AIController.generated.h \
-  /home/shello/Documents/labProgramacionIII/02\ -\ thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/thePhilosophersStone/ShootingAIController.generated.h
+  /home/shello/Documents/labProgramacionIII/02\ -\ thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/thePhilosophersStone/ShootingAIController.generated.h \
+  Runtime/Engine/Classes/Kismet/GameplayStatics.h \
+  Runtime/Engine/Public/CollisionQueryParams.h \
+  Runtime/Engine/Classes/Engine/LatentActionManager.h \
+  Runtime/Engine/Classes/GameFramework/PlayerController.h \
+  Runtime/Engine/Classes/Kismet/BlueprintFunctionLibrary.h \
+  Runtime/Engine/Classes/Kismet/KismetSystemLibrary.h \
+  Runtime/CoreUObject/Public/UObject/UnrealType.h \
+  Runtime/CoreUObject/Public/UObject/TextProperty.h \
+  Runtime/CoreUObject/Public/UObject/SoftObjectPtr.h \
+  Runtime/CoreUObject/Public/UObject/PropertyAccessUtil.h \
+  Runtime/Core/Public/Templates/UniquePtr.h \
+  Runtime/Core/Public/Misc/EnumClassFlags.h \
+  Runtime/Engine/Classes/Engine/CollisionProfile.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/KismetSystemLibrary.generated.h \
+  Runtime/Engine/Classes/Sound/DialogueTypes.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/DialogueTypes.generated.h \
+  /home/shello/Programs/UnrealEngine5.0.2/Engine/Source/Runtime/Engine/Classes/Kismet/GameplayStaticsTypes.h \
+  /home/shello/Programs/UnrealEngine5.0.2/Engine/Source/Runtime/Engine/Classes/Kismet/KismetSystemLibrary.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/GameplayStaticsTypes.generated.h \
+  Runtime/Engine/Classes/Particles/WorldPSCPool.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/GameplayStatics.generated.h
