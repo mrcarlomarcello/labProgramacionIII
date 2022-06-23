@@ -13,6 +13,9 @@ UCLASS()
 class THEPHILOSOPHERSSTONE_API AShootingAIController : public AAIController
 {
 	GENERATED_BODY()
+public:
+	virtual void Tick(float DelatSeconds) override;
+
 //begin play es protected soo tenemos que hacerlo en la protected section de la clase
 protected:
 	virtual void BeginPlay() override;
