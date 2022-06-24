@@ -19,6 +19,10 @@ public:
 //begin play es protected soo tenemos que hacerlo en la protected section de la clase
 protected:
 	virtual void BeginPlay() override;
-	
-	
+
+private:
+	UPROPERTY(EditAnywhere)
+	//float AcceptanceRadius = 200;	
+	class UBehaviorTree* AIBehavior;
+
 };

@@ -53,7 +53,11 @@ void AGun::PullTrigger()
 		DrawDebugPoint(GetWorld(), Location, 20, FColor::Red, true);
 
 		FHitResult Hit;
-		bool bulletSuccess = GetWorld()->LineTraceSingleByChannel(Hit, Location, End, ECollisionChannel::ECC_GameTraceChannel1);
+		FCollisionQueryParams Params;
+		Params.AddIgnoredActor(this);
+		Params.AddIgnoredActor(GetOwner());
+
+		bool bulletSuccess = GetWorld()->LineTraceSingleByChannel(Hit, Location, End, ECollisionChannel::ECC_GameTraceChannel1, Params);
 		
 		if(bulletSuccess)
 		{

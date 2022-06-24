@@ -36,6 +36,9 @@ public:
 	//agrgando este metodo de actor
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser);
 
+	//Haremos una shooting Function --->NOW PUBLIC PARA QUE LA USE EL AI!!!
+	void Shoot();
+
 private:
 
 	//EL MAPEO NUEVO OVERRIDE DE LA CLASE HEREDADA ACHARACTER
@@ -44,10 +47,7 @@ private:
 	void TurnRightRate(float AxisValue);
 	void TurnRight(float AxisValue);
 	void LookUpRate(float AxisValue);	
-	void LookUp(float AxisValue);
-
-	//Haremos una shooting Function
-	void Shoot();	
+	void LookUp(float AxisValue);		
 	
 	//ESTA PROPIEDAD TENDREMOS QUE AGREGARLA A SETTINGS DESPUES!!!
 	UPROPERTY(EditAnywhere)

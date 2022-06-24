@@ -13,6 +13,7 @@ void EmptyLinkFunctionForGeneratedCodeShootingAIController() {}
 	THEPHILOSOPHERSSTONE_API UClass* Z_Construct_UClass_AShootingAIController();
 	AIMODULE_API UClass* Z_Construct_UClass_AAIController();
 	UPackage* Z_Construct_UPackage__Script_thePhilosophersStone();
+	AIMODULE_API UClass* Z_Construct_UClass_UBehaviorTree_NoRegister();
 // End Cross Module References
 	void AShootingAIController::StaticRegisterNativesAShootingAIController()
 	{
@@ -28,6 +29,11 @@ void EmptyLinkFunctionForGeneratedCodeShootingAIController() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_AIBehavior_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_AIBehavior;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -43,6 +49,18 @@ void EmptyLinkFunctionForGeneratedCodeShootingAIController() {}
 		{ "ModuleRelativePath", "ShootingAIController.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShootingAIController_Statics::NewProp_AIBehavior_MetaData[] = {
+		{ "Category", "ShootingAIController" },
+		{ "Comment", "//float AcceptanceRadius = 200;\x09\n" },
+		{ "ModuleRelativePath", "ShootingAIController.h" },
+		{ "ToolTip", "float AcceptanceRadius = 200;" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AShootingAIController_Statics::NewProp_AIBehavior = { "AIBehavior", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShootingAIController, AIBehavior), Z_Construct_UClass_UBehaviorTree_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AShootingAIController_Statics::NewProp_AIBehavior_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShootingAIController_Statics::NewProp_AIBehavior_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AShootingAIController_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShootingAIController_Statics::NewProp_AIBehavior,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AShootingAIController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AShootingAIController>::IsAbstract,
 	};
@@ -52,11 +70,11 @@ void EmptyLinkFunctionForGeneratedCodeShootingAIController() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AShootingAIController_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AShootingAIController_Statics::PropPointers),
 		0,
 		0x009002A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AShootingAIController_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AShootingAIController_Statics::Class_MetaDataParams))
@@ -79,9 +97,9 @@ void EmptyLinkFunctionForGeneratedCodeShootingAIController() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingAIController_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AShootingAIController, AShootingAIController::StaticClass, TEXT("AShootingAIController"), &Z_Registration_Info_UClass_AShootingAIController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShootingAIController), 3447347559U) },
+		{ Z_Construct_UClass_AShootingAIController, AShootingAIController::StaticClass, TEXT("AShootingAIController"), &Z_Registration_Info_UClass_AShootingAIController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShootingAIController), 1580382200U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingAIController_h_3852025030(TEXT("/Script/thePhilosophersStone"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingAIController_h_1077521047(TEXT("/Script/thePhilosophersStone"),
 		Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingAIController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingAIController_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

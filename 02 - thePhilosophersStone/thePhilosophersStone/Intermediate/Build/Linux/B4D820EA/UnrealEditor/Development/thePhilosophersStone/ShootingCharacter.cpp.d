@@ -1904,4 +1904,9 @@
   ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/Character.generated.h \
   /home/shello/Documents/labProgramacionIII/02\ -\ thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/thePhilosophersStone/ShootingCharacter.generated.h \
   /home/shello/Documents/labProgramacionIII/02\ -\ thePhilosophersStone/thePhilosophersStone/Source/thePhilosophersStone/Gun.h \
-  /home/shello/Documents/labProgramacionIII/02\ -\ thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/thePhilosophersStone/Gun.generated.h
+  /home/shello/Documents/labProgramacionIII/02\ -\ thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/thePhilosophersStone/Gun.generated.h \
+  Runtime/Engine/Classes/Components/CapsuleComponent.h \
+  Runtime/Engine/Classes/Components/ShapeComponent.h \
+  Runtime/Engine/Classes/Components/PrimitiveComponent.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/ShapeComponent.generated.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/CapsuleComponent.generated.h
