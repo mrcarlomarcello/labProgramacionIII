@@ -1909,4 +1909,14 @@
   Runtime/Engine/Classes/Components/ShapeComponent.h \
   Runtime/Engine/Classes/Components/PrimitiveComponent.h \
   ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/ShapeComponent.generated.h \
-  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/CapsuleComponent.generated.h
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/CapsuleComponent.generated.h \
+  /home/shello/Documents/labProgramacionIII/02\ -\ thePhilosophersStone/thePhilosophersStone/Source/thePhilosophersStone/SimpleShootingGameModeBase.h \
+  Runtime/Engine/Classes/GameFramework/GameModeBase.h \
+  Runtime/Core/Public/Misc/Guid.h \
+  Runtime/Engine/Classes/GameFramework/Info.h \
+  Runtime/Engine/Classes/Engine/ServerStatReplicator.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/ServerStatReplicator.generated.h \
+  Runtime/CoreOnline/Public/Online/CoreOnline.h \
+  Runtime/Engine/Classes/GameFramework/PlayerController.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/GameModeBase.generated.h \
+  /home/shello/Documents/labProgramacionIII/02\ -\ thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/thePhilosophersStone/SimpleShootingGameModeBase.generated.h
