@@ -16,11 +16,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingCharacter_h_14_SPARSE_DATA
 #define FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingCharacter_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetHealthPercent); \
 	DECLARE_FUNCTION(execisDead);
 
 
 #define FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetHealthPercent); \
 	DECLARE_FUNCTION(execisDead);
 
 

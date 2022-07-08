@@ -1905,4 +1905,63 @@
   Runtime/Core/Public/ProfilingDebugging/ProfilingHelpers.h \
   Runtime/Engine/Classes/GameFramework/WorldSettings.h \
   Runtime/RenderCore/Public/RendererInterface.h \
-  Runtime/Engine/Classes/GameFramework/Controller.h
+  Runtime/Engine/Classes/GameFramework/Controller.h \
+  /home/shello/Documents/labProgramacionIII/02\ -\ thePhilosophersStone/thePhilosophersStone/Source/thePhilosophersStone/ShootingAIController.h \
+  Runtime/AIModule/Classes/AIController.h \
+  Runtime/CoreUObject/Public/UObject/UObjectGlobals.h \
+  Runtime/Engine/Public/EngineDefines.h \
+  Runtime/NavigationSystem/Public/NavFilters/NavigationQueryFilter.h \
+  Runtime/CoreUObject/Public/UObject/Object.h \
+  Runtime/NavigationSystem/Public/NavAreas/NavArea.h \
+  Runtime/Engine/Classes/AI/Navigation/NavAreaBase.h \
+  Runtime/Engine/Classes/AI/Navigation/NavigationTypes.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/NavAreaBase.generated.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/NavigationSystem/NavArea.generated.h \
+  Runtime/Engine/Public/AI/Navigation/NavQueryFilter.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/NavigationSystem/NavigationQueryFilter.generated.h \
+  Runtime/AIModule/Classes/AITypes.h Runtime/Core/Public/Stats/Stats.h \
+  Runtime/NavigationSystem/Public/NavigationSystemTypes.h \
+  Runtime/Engine/Classes/AI/NavigationSystemConfig.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/NavigationSystemConfig.generated.h \
+  Runtime/Engine/Classes/AI/Navigation/NavLinkDefinition.h \
+  Runtime/Core/Public/Math/GenericOctreePublic.h \
+  Runtime/Engine/Public/AI/NavigationModifier.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/AIModule/AITypes.generated.h \
+  Runtime/GameplayTasks/Classes/GameplayTaskOwnerInterface.h \
+  Runtime/CoreUObject/Public/UObject/Interface.h \
+  Runtime/GameplayTasks/Public/GameplayTaskTypes.h \
+  Runtime/CoreUObject/Public/UObject/WeakObjectPtr.h \
+  Runtime/CoreUObject/Public/Templates/Casts.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/GameplayTasks/GameplayTaskOwnerInterface.generated.h \
+  Runtime/GameplayTasks/Classes/GameplayTask.h \
+  Runtime/CoreUObject/Public/UObject/ScriptInterface.h \
+  Runtime/CoreUObject/Public/UObject/WeakInterfacePtr.h \
+  ThirdParty/Unix/LibCxx/include/c++/v1/type_traits \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/GameplayTasks/GameplayTask.generated.h \
+  Runtime/AIModule/Classes/Navigation/PathFollowingComponent.h \
+  Runtime/Engine/Classes/Components/ActorComponent.h \
+  Runtime/NavigationSystem/Public/NavigationData.h \
+  Runtime/Core/Public/Async/TaskGraphInterfaces.h \
+  Runtime/Engine/Classes/AI/Navigation/NavigationDataInterface.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/NavigationDataInterface.generated.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/NavigationSystem/NavigationData.generated.h \
+  Runtime/AIModule/Classes/AIResourceInterface.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/AIModule/AIResourceInterface.generated.h \
+  Runtime/Engine/Classes/GameFramework/NavMovementComponent.h \
+  Runtime/Engine/Classes/AI/Navigation/NavAgentInterface.h \
+  Runtime/Engine/Classes/AI/Navigation/PathFollowingAgentInterface.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/PathFollowingAgentInterface.generated.h \
+  Runtime/Engine/Classes/GameFramework/MovementComponent.h \
+  Runtime/PhysicsCore/Public/Chaos/ChaosEngineInterface.h \
+  Runtime/Engine/Classes/Components/SceneComponent.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/MovementComponent.generated.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/NavMovementComponent.generated.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/AIModule/PathFollowingComponent.generated.h \
+  Runtime/AIModule/Classes/Perception/AIPerceptionListenerInterface.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/AIModule/AIPerceptionListenerInterface.generated.h \
+  Runtime/AIModule/Classes/GenericTeamAgentInterface.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/AIModule/GenericTeamAgentInterface.generated.h \
+  Runtime/Engine/Public/VisualLogger/VisualLoggerDebugSnapshotInterface.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/VisualLoggerDebugSnapshotInterface.generated.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/AIModule/AIController.generated.h \
+  /home/shello/Documents/labProgramacionIII/02\ -\ thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/thePhilosophersStone/ShootingAIController.generated.h

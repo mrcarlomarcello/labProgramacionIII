@@ -1986,4 +1986,17 @@
   Runtime/AIModule/Classes/BehaviorTree/BlackboardData.h \
   Runtime/Engine/Classes/Engine/DataAsset.h \
   ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/AIModule/BlackboardData.generated.h \
-  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/AIModule/BlackboardComponent.generated.h
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/AIModule/BlackboardComponent.generated.h \
+  /home/shello/Documents/labProgramacionIII/02\ -\ thePhilosophersStone/thePhilosophersStone/Source/thePhilosophersStone/ShootingCharacter.h \
+  Runtime/Engine/Classes/GameFramework/Character.h \
+  Runtime/CoreUObject/Public/UObject/CoreNet.h \
+  Runtime/Engine/Classes/Engine/NetSerialization.h \
+  Runtime/Engine/Classes/GameFramework/CharacterMovementReplication.h \
+  Runtime/Core/Public/Serialization/BitWriter.h \
+  Runtime/Core/Public/Containers/BitArray.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/CharacterMovementReplication.generated.h \
+  Runtime/Engine/Classes/Animation/AnimationAsset.h \
+  Runtime/Engine/Classes/GameFramework/RootMotionSource.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/RootMotionSource.generated.h \
+  ../Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/Engine/Character.generated.h \
+  /home/shello/Documents/labProgramacionIII/02\ -\ thePhilosophersStone/thePhilosophersStone/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/thePhilosophersStone/ShootingCharacter.generated.h

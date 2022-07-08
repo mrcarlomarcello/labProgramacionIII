@@ -31,6 +31,14 @@ void EmptyLinkFunctionForGeneratedCodeShootingPlayerController() {}
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_HUDClass_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_HUDClass;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_WinScreenClass_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_WinScreenClass;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_LoseScreenClass_MetaData[];
 #endif
 		static const UECodeGen_Private::FClassPropertyParams NewProp_LoseScreenClass;
@@ -38,6 +46,10 @@ void EmptyLinkFunctionForGeneratedCodeShootingPlayerController() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_RestartDelay_MetaData[];
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_RestartDelay;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_HUD_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_HUD;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -55,6 +67,20 @@ void EmptyLinkFunctionForGeneratedCodeShootingPlayerController() {}
 	};
 #endif
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_HUDClass_MetaData[] = {
+		{ "Category", "ShootingPlayerController" },
+		{ "ModuleRelativePath", "ShootingPlayerController.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_HUDClass = { "HUDClass", nullptr, (EPropertyFlags)0x0044000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShootingPlayerController, HUDClass), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_HUDClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_HUDClass_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_WinScreenClass_MetaData[] = {
+		{ "Category", "ShootingPlayerController" },
+		{ "ModuleRelativePath", "ShootingPlayerController.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_WinScreenClass = { "WinScreenClass", nullptr, (EPropertyFlags)0x0044000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShootingPlayerController, WinScreenClass), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_WinScreenClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_WinScreenClass_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_LoseScreenClass_MetaData[] = {
 		{ "Category", "ShootingPlayerController" },
 		{ "ModuleRelativePath", "ShootingPlayerController.h" },
@@ -68,9 +94,20 @@ void EmptyLinkFunctionForGeneratedCodeShootingPlayerController() {}
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_RestartDelay = { "RestartDelay", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShootingPlayerController, RestartDelay), METADATA_PARAMS(Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_RestartDelay_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_RestartDelay_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_HUD_MetaData[] = {
+		{ "Category", "ShootingPlayerController" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ShootingPlayerController.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_HUD = { "HUD", nullptr, (EPropertyFlags)0x0040000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShootingPlayerController, HUD), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_HUD_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_HUD_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AShootingPlayerController_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_HUDClass,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_WinScreenClass,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_LoseScreenClass,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_RestartDelay,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShootingPlayerController_Statics::NewProp_HUD,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AShootingPlayerController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AShootingPlayerController>::IsAbstract,
@@ -108,9 +145,9 @@ void EmptyLinkFunctionForGeneratedCodeShootingPlayerController() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingPlayerController_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AShootingPlayerController, AShootingPlayerController::StaticClass, TEXT("AShootingPlayerController"), &Z_Registration_Info_UClass_AShootingPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShootingPlayerController), 4042928791U) },
+		{ Z_Construct_UClass_AShootingPlayerController, AShootingPlayerController::StaticClass, TEXT("AShootingPlayerController"), &Z_Registration_Info_UClass_AShootingPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShootingPlayerController), 1606409766U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingPlayerController_h_1434363282(TEXT("/Script/thePhilosophersStone"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingPlayerController_h_3631773413(TEXT("/Script/thePhilosophersStone"),
 		Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingPlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_thePhilosophersStone_Source_thePhilosophersStone_ShootingPlayerController_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

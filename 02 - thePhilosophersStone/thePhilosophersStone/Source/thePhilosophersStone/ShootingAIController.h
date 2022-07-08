@@ -15,6 +15,7 @@ class THEPHILOSOPHERSSTONE_API AShootingAIController : public AAIController
 	GENERATED_BODY()
 public:
 	virtual void Tick(float DelatSeconds) override;
+	bool IsDead() const;
 
 //begin play es protected soo tenemos que hacerlo en la protected section de la clase
 protected:
